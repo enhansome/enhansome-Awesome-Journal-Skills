@@ -166,10 +166,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T17:48:57Z",
+            "last_commit": "2026-08-18T05:46:09Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 42810
+            "stars": 42938
           }
         },
         {
@@ -183,7 +183,7 @@
             "last_commit": "2026-08-17T09:24:37Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3438
+            "stars": 3451
           }
         }
       ],
@@ -206,7 +206,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T22:53:22.633Z",
+    "last_updated": "2026-08-18T22:53:45.426Z",
     "original_repository": "brycewang-stanford/Awesome-Journal-Skills",
     "original_repository_sha": "d7125f7bae8eb19c923a75cbc3daca6df957e7cc",
     "enhanced_repository": "enhansome/enhansome-Awesome-Journal-Skills",
