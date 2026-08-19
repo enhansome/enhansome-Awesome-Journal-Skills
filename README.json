@@ -1,162 +1,7 @@
 {
   "items": [
     {
-      "description": "然后把目标期刊的稿子交给它的 workflow skill：\n还没定投哪本？ 直接装跨刊工具包，让它替你选：\n它会先给稿子画像，再从 743 本刊/会的索引里排出 reach / match / safe 三档，并提前写好改投阶梯。\n选刊的检索环节不是自说自话，而是一条可以自己跑的命令：\n评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，只给标题时留出集 recall@10 = 41.5%，给对学科时 51.3%（）。检索只负责给出该读哪几本，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。\n定了阶梯还可以算账： 把「先冲顶刊再降级」和「直接从第二档起投」换算成月数与最终发出去的概率——真正吃掉一年的是顺序，不是某一本刊。",
-      "items": [],
-      "title": "⚡ 30 秒上手"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "🧭 目录"
-    },
-    {
-      "description": "共 299 个 pack / 4154 个 skill。\"深度包\"= 单刊单会全流程（约 12 个 skill）；\"广度合集\"= 每个 venue 一个轻量\"选刊定位 + 写作风格\"skill 加一个 router。",
-      "items": [],
-      "title": "📊 覆盖一览"
-    },
-    {
-      "description": "可以按三步理解这个仓库：\n经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。",
-      "items": [],
-      "title": "🧭 快速浏览与布局指南"
-    },
-    {
-      "description": "为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 仍保留在对应 bundle 内，因此插件路径和经审计的 skill 计数不会被重复放大。",
-      "items": [],
-      "title": "📂 根目录 200 个期刊文件夹"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "中文经管路线图 · 100 个拼音目录"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "英文经管 / 商科 · 100 个目录"
-    },
-    {
-      "description": "以最完整的 《经济研究》深度包（18 个 skill）为例：一个深度包就是把一篇实证论文从选题到回复审稿的完整生命周期，拆成可被 agent 逐环节调用的工序。每个 skill 只负责一个环节，但都编码了这一本期刊的具体红线，而不是泛泛的\"学术写作\"。",
-      "items": [],
-      "title": "🔬 一个深度包里有什么？"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "📚 Skill Pack 一览"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "计算机科学 · AI 优先会议广度合集"
-    },
-    {
-      "description": "这个合集把 AI 会议放在最前面：NeurIPS、ICML、ICLR、AAAI、IJCAI、AISTATS、UAI、COLT、MLSys、KDD、CVPR、ACL、EMNLP、SIGIR、ICRA、CHI、SOSP、IEEE S&P、ICSE、PLDI、SIGMOD、STOC，以及 130+ 个其它 CS 会议。每个 profile 都是“会议 fit + 当年投稿要求核验清单”；deadline、页数、模板、AI 使用政策、artifact 规则、rebuttal 格式、camera-ready 要求等易变事实，必须以当前官方 CFP / author kit 为准。",
-      "items": [],
-      "title": "计算机科学 · AI 优先会议深度包"
-    },
-    {
-      "description": "面向 CCF 推荐中文科技期刊的中文期刊深度包（区别于上面的英文会议）：中文投审稿流程（初审→外审→复审→主编终审）、GB/T 7714 参考文献、中英文摘要与中图分类号(TP)、专题/专刊、稿酬或版面费等本土规范，均为期刊而非会议语义。",
-      "items": [],
-      "title": "计算机科学 · 中文期刊深度包"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "社会科学 · 中文顶刊 —— 深度独立包"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "社会科学 · 中文顶刊 —— 广度合集"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "社会科学 · 英文顶刊 —— 深度独立包"
-    },
-    {
-      "description": "该合集覆盖下方完整英文路线图：经济学 50 · 金融 13 · 管理/战略/组织 15 · 营销 6 · 会计 6 · 运营与信息系统 10。与中文广度合集一致，每个 profile 都是“选刊 / 改写框架”工具，并把易变事实（影响因子、版面费、字数限制）交由单刊“官方核验清单”在投稿前重新核对。",
-      "items": [],
-      "title": "社会科学 · 英文顶刊 —— 广度合集"
-    },
-    {
-      "description": "经管之外，本仓库已把单刊深度包扩展到社会学、政治学与国际关系、心理学、传播学、教育学、人口学，以及历史、艺术、哲学、文学、宗教等人文学科的旗舰刊。每个包同样是单刊全流程（约 12 个 skill），编码该刊的理论传统、方法偏好、格式规范与审稿文化——例如 ASR/AJS 的理论—机制叙事、APSR 的形式化与因果识别并重、JPSP 的多研究 + 预注册规范、AHR 的史学史定位、PMLA 的 MLA 文体。",
-      "items": [],
-      "title": "社会科学 · 人文与广义社科 —— 深度独立包"
-    },
-    {
-      "description": "每个自然科学包都按刊定制：Science 编码\"一句话总结\"与广泛意义初筛；Cell 编码 STAR Methods + Key Resources Table 以及 Highlights/eTOC/图形摘要三件套；PNAS 编码 ≤120 词的 Significance Statement 与 Direct/Contributed 投稿通道；PNAS Nexus（PNAS 的金色开放获取姊妹刊，由 OUP 出版）则编码完全不同的另一套：金色 OA + APC + CC BY/CC BY-NC 许可证选择、无 Direct/Contributed 通道、从 PNAS 转投的 transfer 通道、50–120 词 Significance Statement、以页数计的篇幅与文章类型（含 Registered Reports）、强制数据/代码存放，以及投稿时对参考文献格式不作硬性要求；NEJM 与 The Lancet 编码试验注册、CONSORT/STROBE/PRISMA 报告规范、结构化临床摘要、ICMJE 伦理与利益声明，以及（柳叶刀的）Research in context 面板。",
-      "items": [],
-      "title": "自然科学 · 英文顶刊 —— 深度独立包"
-    },
-    {
-      "description": "面向环境科学、生态保护与农业系统研究者的单刊深度包（各约 12 个 skill），编码各刊的方法学红线与数据 / 报告规范——例如 ES&T 的环境相关性与分析方法可重复性、Conservation Biology 的保护实践含义、Global Change Biology 的跨尺度机制证据、Field Crops Research 的田间多点多季试验设计。",
-      "items": [],
-      "title": "自然科学 · 环境 / 生态 / 农业 —— 深度独立包"
-    },
-    {
-      "description": "这是英文经管广度合集的自然科学姊妹包——“另一个 100”如今已扩展到 154 本：综合/多学科 9 · 细胞/分子/基因组生物学 16 · 生态/演化/植物 12 · 免疫/微生物/实验医学 4 · 开放获取与基因组学 3 · 神经科学与行为 4 · 临床综合 9 · 临床专科 11 · 转化与肿瘤 5 · 物理 17 · 天文 7 · 化学 16 · 材料与能源 11 · 地球/环境/气候 14 · CS/AI/工程 6 · 数学 10。与其它广度合集一致，每个 profile 都把易变事实（影响因子、版面费、字数/图数限制）交由单刊“官方核验清单”在投稿前重新核对；临床类还需核对适用报告规范（CONSORT/PRISMA/STROBE/ARRIVE）。",
-      "items": [],
-      "title": "自然科学 · 英文顶刊 —— 广度合集"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "自然科学 · 英文顶刊 —— 第三方收录"
-    },
-    {
-      "description": "计数口径。 首页 4154 = 仓库内全部 SKILL.md，分布在 299 个 pack 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：3475（289 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ 668（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ 11（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→阶梯定价→刊物核验→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= 4154。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 python3 tools/audit_repo.py 在 CI 中强制校验，README 与实际文件数不允许漂移。",
-      "items": [],
-      "title": "通用研究工具 —— 第三方收录"
-    },
-    {
-      "description": "本仓库的 pack 全部为仓库内目录包（在本仓库内编写维护），并由根级 聚合，可一次 后安装任意 pack。AER 及第三方包（Nature 系、claude-scholar、codex-claude-academic-skills 等）不再作为 git submodule vendored，改为以外链形式收录——这样 递归克隆时不会再被第三方包的嵌套 submodule 拖垮。\n根目录还额外提供 200 个轻量期刊入口文件夹，用于首页浏览冲击力：100 本中文经管路线图期刊使用拼音目录名（、 等），100 本英文经管 / 商科期刊使用英文题名目录名（、 等）。这些目录只放导航 README；真正可安装的 仍保留在下方 canonical bundle 路径里。\n克隆本仓库（已无 git submodule，普通克隆即可）：",
-      "items": [],
-      "title": "🗂 仓库结构"
-    },
-    {
-      "description": "本仓库的「自动实证」能力有一个可查证的证据层： 收录五条真实执行的端到端实证案例（研究问题 → 设计识别 → 估计 → 稳健性审计 → 论文级结论），所有数字均逐字摘自实际运行的 StatsPAI MCP 工具调用，并附完整调用记录与稳健性检查。五条案例覆盖共享执行手册（）的全部五个设计族，既给用户看真实链路，也给 skill 作者当验收基准。",
-      "items": [],
-      "title": "🧪 自动实证 Showcase（真实运行证据）"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "🚀 如何使用"
-    },
-    {
-      "description": "推荐：把本仓库作为一个 marketplace 添加，然后安装任意仓库内 pack（pack 名见各深度包 / 广度合集页面）：\n也可单独添加某个独立仓库（AER / 管理世界 / 经济研究 等以独立 marketplace 维护）：",
-      "items": [],
-      "title": "方式 A —— Claude Code 插件（推荐）"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "方式 B —— 手动拷贝"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "第一条 Prompt"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "🧩 Pack 选择速查"
-    },
-    {
-      "description": "进度： 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到人文与广义社科（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及环境 / 生态 / 农业 6 本，补齐了营销与会计的剩余旗舰刊（JIM · JPP&M · AOS），并新增一批学科旗舰深度包——自然科学（Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters）、语言学（Language）、中文重点刊（财贸经济 · 中国管理科学），同时把地理学综述刊 Progress in Human Geography 重建为规范深度包，全仓库现共 299 个 pack / 4154 个 skill。路线图现在聚焦下一梯队的扩展。",
-      "items": [],
-      "title": "🗺 路线图"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "收录期刊 —— 均已以广度合集形态落地"
-    },
-    {
-      "description": "更宽口径的 agent skill 合集（与本索引互补）：",
+      "description": "更宽口径的 agent skill 合集（与本索引互补）：\n以外链形式收录（不再 vendored 进本仓库；点击前往各自上游仓库）：\n通用的科研写作 skill 包（定位不同——非特定期刊，仅供参考）：\n自然科学 / 生命科学 skill 库（覆盖广，非特定期刊，仅供参考）：",
       "items": [
         {
           "node_type": "item",
@@ -165,11 +10,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1167300963,
             "language": "Python",
-            "last_commit": "2026-08-18T05:46:09Z",
+            "last_commit": "2026-08-19T10:32:22Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 42938
+            "stars": 43004
           }
         },
         {
@@ -179,35 +25,247 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1200204014,
             "language": "Stata",
             "last_commit": "2026-08-17T09:24:37Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3451
+            "stars": 3458
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nature-skills",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1219596233,
+            "language": "Python",
+            "last_commit": "2026-08-19T02:43:19Z",
+            "owner": "Yuan1z0825",
+            "repo": "nature-skills",
+            "stars": 36010
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude-scholar",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1143237475,
+            "language": "Python",
+            "last_commit": "2026-07-17T08:48:10Z",
+            "owner": "Galaxy-Dawn",
+            "repo": "claude-scholar",
+            "stars": 5123
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "codex-claude-academic-skills",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1238374602,
+            "language": "Python",
+            "last_commit": "2026-05-14T09:08:48Z",
+            "owner": "zLanqing",
+            "repo": "codex-claude-academic-skills",
+            "stars": 3016
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Nature-Paper-Skills",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1208279709,
+            "language": "TeX",
+            "last_commit": "2026-08-17T05:45:38Z",
+            "owner": "Boom5426",
+            "repo": "Nature-Paper-Skills",
+            "stars": 442
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Research-Paper-Writing-Skills",
+          "description": "— ML/CV/NLP 论文写作，源自彭思达老师公开笔记。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1173309453,
+            "language": null,
+            "last_commit": "2026-06-23T02:28:54Z",
+            "owner": "Master-cai",
+            "repo": "Research-Paper-Writing-Skills",
+            "stars": 6149
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude-scientific-writer",
+          "description": "/ scientific-agent-skills —— 通用科学写作。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1084058975,
+            "language": "Python",
+            "last_commit": "2026-08-19T09:24:21Z",
+            "owner": "K-Dense-AI",
+            "repo": "claude-scientific-writer",
+            "stars": 2229
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "academic-paper-skills",
+          "description": "— strategist（规划）+ composer（写作）双 skill，含质量检查点。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1127499996,
+            "language": "Python",
+            "last_commit": "2026-01-04T02:42:38Z",
+            "owner": "lishix520",
+            "repo": "academic-paper-skills",
+            "stars": 1187
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "qinyan-academic-skills",
+          "description": "— 沁言学术，177+ skill，覆盖 17 个学科。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1168281163,
+            "language": "Python",
+            "last_commit": "2026-07-20T11:43:50Z",
+            "owner": "LeonChaoX",
+            "repo": "qinyan-academic-skills",
+            "stars": 811
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-research-skills",
+          "description": "— deep-research 系统性文献综述。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1162231772,
+            "language": "Python",
+            "last_commit": "2026-02-27T04:11:14Z",
+            "owner": "lingzhi227",
+            "repo": "agent-research-skills",
+            "stars": 284
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "academic-writing-agents",
+          "description": "— 多 agent 编排，含审稿/检索/起草/润色等专家 agent。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1192497887,
+            "language": null,
+            "last_commit": "2026-05-11T12:54:27Z",
+            "owner": "andrehuang",
+            "repo": "academic-writing-agents",
+            "stars": 163
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "paper-writer-skill",
+          "description": "— 全流程学术论文写作（IMRAD、文献管理、质量清单）。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1158898484,
+            "language": "Python",
+            "last_commit": "2026-08-12T14:28:23Z",
+            "owner": "kgraph57",
+            "repo": "paper-writer-skill",
+            "stars": 51
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "literature-review-skill",
+          "description": "— 5 步文献综述流水线（检索/获取/精读/综述/章节）。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1232708097,
+            "language": null,
+            "last_commit": "2026-05-08T08:20:34Z",
+            "owner": "YANZHANLIN",
+            "repo": "literature-review-skill",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude-scientific-skills",
+          "description": "（K-Dense）—— 140+ 科学 skill + 100+ 科学数据库，覆盖生物/化学/医学，兼容开放 Agent Skills 标准。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1079456184,
+            "language": "Python",
+            "last_commit": "2026-08-18T22:58:51Z",
+            "owner": "K-Dense-AI",
+            "repo": "scientific-agent-skills",
+            "stars": 33885
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SciAgent-Skills",
+          "description": "— 197 个生物信息与生命科学 skill（RNA-seq、单细胞、蛋白组、药物发现）。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1160505943,
+            "language": "Python",
+            "last_commit": "2026-08-18T00:48:27Z",
+            "owner": "jaechang-hits",
+            "repo": "SciAgent-Skills",
+            "stars": 338
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "research-skills",
+          "description": "— 科研插件，带多刊手稿与图件格式预设（Nature / Science / PNAS / Cell / IEEE）、文献检索、基金写作。最接近\"按刊定制包\"的第三方方案——但它是面向多刊套格式，而非深度编码单一期刊的编辑文化。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1189257977,
+            "language": "Python",
+            "last_commit": "2026-08-13T00:56:02Z",
+            "owner": "neuromechanist",
+            "repo": "research-skills",
+            "stars": 42
           }
         }
       ],
       "title": "🔗 相关项目"
-    },
-    {
-      "description": "本索引由 CoPaper.AI 团队精选与维护 —— 一款由 Stanford REAP 研究人员孵化的实证研究 AI 助手。各 pack 中编码的单刊编委标准，源自 Stanford REAP 在实证经济学方法论与应用因果推断上的长期积累。",
-      "items": [],
-      "title": "👥 维护团队"
-    },
-    {
-      "description": "MIT\nStanford REAP × CoPaper.AI · 面向实证研究的产学一体 AI 工具箱\n\n由 CoPaper.AI 维护，孵化于 Stanford REAP · 由 StatsPAI 驱动（900+ 函数，MIT）",
-      "items": [],
-      "title": "📄 License"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Star History"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T22:53:45.426Z",
+    "last_updated": "2026-08-19T12:07:44.417Z",
     "original_repository": "brycewang-stanford/Awesome-Journal-Skills",
+    "original_repository_id": 1248879346,
     "original_repository_sha": "d7125f7bae8eb19c923a75cbc3daca6df957e7cc",
     "enhanced_repository": "enhansome/enhansome-Awesome-Journal-Skills",
     "enhanced_repository_description": null,
