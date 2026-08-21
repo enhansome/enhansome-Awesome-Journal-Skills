@@ -15,7 +15,7 @@
             "last_commit": "2026-08-20T05:26:10Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 43160
+            "stars": 43241
           }
         },
         {
@@ -30,7 +30,7 @@
             "last_commit": "2026-08-17T09:24:37Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3476
+            "stars": 3487
           }
         },
         {
@@ -45,7 +45,7 @@
             "last_commit": "2026-08-20T07:03:35Z",
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 36244
+            "stars": 36400
           }
         },
         {
@@ -57,10 +57,10 @@
             "archived": false,
             "id": 1143237475,
             "language": "Python",
-            "last_commit": "2026-07-17T08:48:10Z",
+            "last_commit": "2026-08-21T07:40:33Z",
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5136
+            "stars": 5148
           }
         },
         {
@@ -75,7 +75,7 @@
             "last_commit": "2026-05-14T09:08:48Z",
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3055
+            "stars": 3078
           }
         },
         {
@@ -90,7 +90,7 @@
             "last_commit": "2026-08-17T05:45:38Z",
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 444
+            "stars": 446
           }
         },
         {
@@ -105,7 +105,7 @@
             "last_commit": "2026-06-23T02:28:54Z",
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 6186
+            "stars": 6207
           }
         },
         {
@@ -120,7 +120,7 @@
             "last_commit": "2026-08-19T09:24:21Z",
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2236
+            "stars": 2237
           }
         },
         {
@@ -135,7 +135,7 @@
             "last_commit": "2026-01-04T02:42:38Z",
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1191
+            "stars": 1197
           }
         },
         {
@@ -180,7 +180,7 @@
             "last_commit": "2026-05-11T12:54:27Z",
             "owner": "andrehuang",
             "repo": "academic-writing-agents",
-            "stars": 163
+            "stars": 164
           }
         },
         {
@@ -195,7 +195,7 @@
             "last_commit": "2026-08-12T14:28:23Z",
             "owner": "kgraph57",
             "repo": "paper-writer-skill",
-            "stars": 52
+            "stars": 53
           }
         },
         {
@@ -225,7 +225,7 @@
             "last_commit": "2026-08-19T22:41:49Z",
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 34004
+            "stars": 34072
           }
         },
         {
@@ -237,10 +237,10 @@
             "archived": false,
             "id": 1160505943,
             "language": "Python",
-            "last_commit": "2026-08-18T00:48:27Z",
+            "last_commit": "2026-08-21T06:59:43Z",
             "owner": "jaechang-hits",
             "repo": "SciAgent-Skills",
-            "stars": 339
+            "stars": 340
           }
         },
         {
@@ -263,7 +263,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T22:57:29.970Z",
+    "last_updated": "2026-08-21T22:53:43.520Z",
     "original_repository": "brycewang-stanford/Awesome-Journal-Skills",
     "original_repository_id": 1248879346,
     "original_repository_sha": "d7125f7bae8eb19c923a75cbc3daca6df957e7cc",
