@@ -1,14 +1,14 @@
 # Awesome Journal Skills (AJS) with stars
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS)：4154 个 Agent Skill、299 个 Pack、743 个期刊与会议 venue" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS)：4166 个 Agent Skill、300 个 Pack、744 个期刊与会议 venue" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code) ⭐ 142,507 | 🐛 15,060 | 🌐 Python | 📅 2026-08-22
+[![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code) ⭐ 142,755 | 🐛 15,108 | 🌐 Python | 📅 2026-08-23
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
-[![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 | 🐛 1 | 🌐 Python | 📅 2026-08-21
+[![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 | 🐛 1 | 🌐 Python | 📅 2026-08-23
 
 [English](README.en.md) | 简体中文
 
@@ -66,7 +66,7 @@
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
     <a href="showcase/README.md">🧪 自动实证 Showcase（真实运行证据）</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（743 个 venue，机读表）</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（744 个 venue，机读表）</a> ·
     <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
@@ -354,7 +354,7 @@
 用 rt-journal-match：这是我的摘要，该投哪几本、按什么顺序投？
 ```
 
-它会先给稿子画像，再从 **743 本刊/会**的索引里排出 reach / match / safe 三档，并提前写好改投阶梯。
+它会先给稿子画像，再从 **744 本刊/会**的索引里排出 reach / match / safe 三档，并提前写好改投阶梯。
 
 选刊的检索环节不是自说自话，而是**一条可以自己跑的命令**：
 
@@ -363,18 +363,18 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
         --discipline economics/labor --lane empirical --top 15
 ```
 
-评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**时留出集 recall\@10 = 41.5%，给对学科时 51.3%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
+评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**这种最苛刻的问法，留出集 recall\@10 = 46.7%；贴上摘要（作者真正会做的事）是 54.9%，给对学科是 55.7%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
 
 定了阶梯还可以算账：`rt-ladder-ev` 把「先冲顶刊再降级」和「直接从第二档起投」换算成月数与最终发出去的概率——真正吃掉一年的是**顺序**，不是某一本刊。
 
-> **只想找某一本刊？**[**CATALOG.md**](CATALOG.md) 按学科列出全部 743 本刊/会，每本都标注了要安装的插件名（机器可读版：[`catalog.json`](catalog.json)）。
+> **只想找某一本刊？**[**CATALOG.md**](CATALOG.md) 按学科列出全部 744 本刊/会，每本都标注了要安装的插件名（机器可读版：[`catalog.json`](catalog.json)）。
 
 ### 🧭 目录
 
 | 🧭 入门 · 理念                  | 📚 浏览 · 索引                        | 🚀 使用 · 协作                        |
 | --------------------------- | --------------------------------- | --------------------------------- |
 | [快速浏览与布局指南](#-快速浏览与布局指南)    | [Skill Pack 一览](#-skill-pack-一览)  | [如何使用](#-如何使用)                    |
-| [为什么按期刊](#-为什么要按期刊做-skills) | [根目录 200 个期刊入口](#-根目录-200-个期刊文件夹) | [Pack 选择速查](#-pack-选择速查)          |
+| [为什么按期刊](#-为什么要按期刊做-skills) | [根目录 201 个期刊入口](#-根目录-201-个期刊文件夹) | [Pack 选择速查](#-pack-选择速查)          |
 | [路线图](#-路线图)                | [仓库结构](#-仓库结构)                    | [贡献](#-贡献)                        |
 | [相关项目](#-相关项目)              | [维护团队](#-维护团队)                    | [🌐 English README](README.en.md) |
 
@@ -394,7 +394,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统                   | Field Crops Research · Agricultural Systems · ES\&T · Global Environmental Change · Conservation Biology · Global Change Biology                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 深度包 + 农业环境广度合集                  |
 | <a id="discipline-sport-science"></a>🏅 **体育科学**        | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学                         | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 中文体育学广度合集                       |
 
-<sub>共 <b>299 个 pack / 4154 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>300 个 pack / 4166 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ***
 
@@ -407,18 +407,18 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 | **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/`                                                                                                                                                                                                                                                                                                                  | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。           | 你在 GitHub 根目录按期刊名浏览。           |
 | **深度包**，例如 `Economic-Research-Journal-Skills/`、`Cell-Skills/` 或 `Quarterly-Journal-of-Economics-Skills/`                                                                                                                                                                                                                                                                            | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。          | 目标期刊已确定，且需要完整投稿生命周期支持。         |
 | **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/`、`Agriculture-Environment-Journal-Skills/`、`Clinical-Medicine-Journal-Skills/`、`English-Humanities-Journal-Skills/`、`Chinese-Sport-Science-Journal-Skills/`、`Computer-Science-Conference-Skills/`         | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
-| **第三方收录（外链）**，例如 [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,532 \| 🐛 2 \| 🌐 Python \| 📅 2026-08-22、[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,155 \| 🐛 3 \| 🌐 Python \| 📅 2026-08-21 或 [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,097 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 第三方上游包或通用学术工具，以外链形式收录（不再 vendored 进本仓库）。                 | 你需要跨期刊的研究、写作或工作流支持。            |
+| **第三方收录（外链）**，例如 [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,679 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-23、[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,165 \| 🐛 4 \| 🌐 Python \| 📅 2026-08-21 或 [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,128 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 第三方上游包或通用学术工具，以外链形式收录（不再 vendored 进本仓库）。                 | 你需要跨期刊的研究、写作或工作流支持。            |
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
 
 <details open>
-<summary><b>📂 点击展开：仓库根目录的 200 个期刊入口文件夹</b>（100 中文拼音目录 + 100 英文目录，方便在 GitHub 首页直接按刊名浏览）</summary>
+<summary><b>📂 点击展开：仓库根目录的 201 个期刊入口文件夹</b>（100 中文拼音目录 + 100 英文目录 + 1 个独立深度包入口，方便在 GitHub 首页直接按刊名浏览）</summary>
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
 
-## 📂 根目录 200 个期刊文件夹
+## 📂 根目录 201 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和经审计的 skill 计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的期刊阵列，现在有 201 个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名，另有 1 个独立深度包入口。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和经审计的 skill 计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -479,6 +479,12 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 | [Contemporary-Accounting-Research/](Contemporary-Accounting-Research/)<br><sub>Contemporary Accounting Research</sub>                                            | [Accounting-Organizations-and-Society/](Accounting-Organizations-and-Society/)<br><sub>Accounting, Organizations and Society</sub>                                       | [Management-Science/](Management-Science/)<br><sub>Management Science</sub>                                                                                                 | [Operations-Research/](Operations-Research/)<br><sub>Operations Research</sub>                                                                         |
 | [Manufacturing-and-Service-Operations-Management/](Manufacturing-and-Service-Operations-Management/)<br><sub>Manufacturing & Service Operations Management</sub> | [Journal-of-Operations-Management/](Journal-of-Operations-Management/)<br><sub>Journal of Operations Management</sub>                                                    | [Production-and-Operations-Management/](Production-and-Operations-Management/)<br><sub>Production and Operations Management</sub>                                           | [MIS-Quarterly/](MIS-Quarterly/)<br><sub>MIS Quarterly</sub>                                                                                           |
 | [Information-Systems-Research/](Information-Systems-Research/)<br><sub>Information Systems Research</sub>                                                        | [Journal-of-Management-Information-Systems/](Journal-of-Management-Information-Systems/)<br><sub>Journal of Management Information Systems</sub>                         | [Journal-of-the-Association-for-Information-Systems/](Journal-of-the-Association-for-Information-Systems/)<br><sub>Journal of the Association for Information Systems</sub> | [INFORMS-Journal-on-Computing/](INFORMS-Journal-on-Computing/)<br><sub>INFORMS Journal on Computing</sub>                                              |
+
+### 独立深度包入口 · 1 个目录
+
+|                                                                             |
+| --------------------------------------------------------------------------- |
+| [Xitong-Gongcheng-Xuebao/](Xitong-Gongcheng-Xuebao/)<br><sub>《系统工程学报》</sub> |
 
 <!-- ROOT-JOURNAL-FOLDERS:END -->
 
@@ -637,6 +643,12 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 | **《计算机辅助设计与图形学学报》** Journal of Computer-Aided Design & Computer Graphics (JCAD\&CG) | [Journal-of-CAD-and-Computer-Graphics-Skills/](Journal-of-CAD-and-Computer-Graphics-Skills/)                       | CCF-A 图形/几何阵地(图形学/CAD/几何设计/可视化/VR/图像)、几何精度与渲染质量证据、jcad.cn、workflow 与选题定位                                    |  12 |
 | **《通信学报》** Journal on Communications (JOC)                                          | [Journal-on-Communications-Skills/](Journal-on-Communications-Skills/)                                             | 通信学科旗舰(通信理论/无线移动/网络/信息安全与密码/信号处理)、链路级/系统级仿真证据、CBPT 三审、workflow 与选题定位                                        |  12 |
 | **《计算机科学》** Computer Science journal (JSJKX)                                        | [Computer-Science-Journal-Skills/](Computer-Science-Journal-Skills/)                                               | 计算机全学科中文综合刊、栏目/专题活跃、单盲审稿、鼓励长文、jsjkx.com、明确为期刊而非会议、workflow 与选题定位                                            |  12 |
+
+### 工程与技术 · 中文期刊 —— 深度独立包
+
+|  封面 | 期刊                                          | Pack                                                                             | 学科   | 技能数 |
+| :-: | ------------------------------------------- | -------------------------------------------------------------------------------- | ---- | --: |
+|  —  | **《系统工程学报》** Journal of Systems Engineering | [Journal-of-Systems-Engineering-Skills/](Journal-of-Systems-Engineering-Skills/) | 系统工程 |  12 |
 
 ### 社会科学 · 中文顶刊 —— 深度独立包
 
@@ -1316,17 +1328,20 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 
 | 期刊                                 | 仓库                                                                                                              | 学科             | 状态       |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------- | -------- |
-| **Nature**（学术表达 + 科研绘图）            | [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,532 \| 🐛 2 \| 🌐 Python \| 📅 2026-08-22     | 自然科学（Nature 系） | upstream |
-| **Nature 风格手稿**（起草 · 修改 · 审计 · 重投） | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) ⭐ 449 \| 🐛 0 \| 🌐 TeX \| 📅 2026-08-17 | 自然科学（Nature 系） | upstream |
+| **Nature**（学术表达 + 科研绘图）            | [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,679 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-23     | 自然科学（Nature 系） | upstream |
+| **Nature 风格手稿**（起草 · 修改 · 审计 · 重投） | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) ⭐ 450 \| 🐛 0 \| 🌐 TeX \| 📅 2026-08-17 | 自然科学（Nature 系） | upstream |
 
 ### 通用研究工具 —— 第三方收录
 
-| Pack                       | 仓库                                                                                                                                     | 范围                                           | 状态       |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | -------- |
-| **Claude Scholar**         | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,155 \| 🐛 3 \| 🌐 Python \| 📅 2026-08-21                          | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
-| **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,097 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 阅读 · 写作 · 科学计算                               | upstream |
+| Pack                        | 仓库                                                                                                                                     | 范围                                              | 状态       |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- |
+| **Claude Scholar**          | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,165 \| 🐛 4 \| 🌐 Python \| 📅 2026-08-21                          | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex）    | upstream |
+| **Codex/Claude 学术 Skills**  | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,128 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 阅读 · 写作 · 科学计算                                  | upstream |
+| **Econ Writing Skill**      | [econ-writing-skill](https://github.com/hanlulong/econ-writing-skill) ⭐ 556 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-20                      | 经济学论文写作：50+ 权威指南提炼（Claude Code / Codex）         | upstream |
+| **Econ Paper Review Skill** | [econ-paper-review-skill](https://github.com/hanlulong/econ-paper-review-skill) ⭐ 12 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-01             | 经济学论文 AI 审稿：可验证审稿意见 + 修改计划（Claude Code / Codex） | upstream |
+| **Econ Slides Skill**       | [econ-slides-skill](https://github.com/hanlulong/econ-slides-skill) ⭐ 11 \| 🐛 1 \| 🌐 TeX \| 📅 2026-07-20                            | 论文 → Beamer 学术演讲 + 定时讲稿（Claude Code / Codex）    | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>4154</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>299 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3475</b>（289 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>11</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→阶梯定价→刊物核验→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= <b>4154</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit\_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>4166</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>300 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3487</b>（290 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>11</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→阶梯定价→刊物核验→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= <b>4166</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit\_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ***
 
@@ -1334,7 +1349,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 
 本仓库的 pack 全部为**仓库内目录包**（在本仓库内编写维护），并由根级 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) 聚合，可一次 `/plugin marketplace add` 后安装任意 pack。AER 及第三方包（Nature 系、claude-scholar、codex-claude-academic-skills 等）不再作为 git submodule vendored，改为以外链形式收录——这样 `/plugin marketplace add` 递归克隆时不会再被第三方包的嵌套 submodule 拖垮。
 
-根目录还额外提供 **200 个轻量期刊入口文件夹**，用于首页浏览冲击力：100 本中文经管路线图期刊使用拼音目录名（`Jingji-Yanjiu/`、`Guanli-Shijie/` 等），100 本英文经管 / 商科期刊使用英文题名目录名（`American-Economic-Review/`、`Journal-of-Finance/` 等）。这些目录只放导航 README；真正可安装的 `SKILL.md` 仍保留在下方 canonical bundle 路径里。
+根目录还额外提供 **201 个轻量期刊入口文件夹**，用于首页浏览冲击力：100 本中文经管路线图期刊使用拼音目录名（`Jingji-Yanjiu/`、`Guanli-Shijie/` 等），100 本英文经管 / 商科期刊使用英文题名目录名（`American-Economic-Review/`、`Journal-of-Finance/` 等），另有 1 个独立深度包入口。这些目录只放导航 README；真正可安装的 `SKILL.md` 仍保留在下方 canonical bundle 路径里。
 
 ```text
 awesome-journal-skills/
@@ -1343,6 +1358,7 @@ awesome-journal-skills/
 ├── Guanli-Shijie/                 → 《管理世界》根目录入口
 ├── American-Economic-Review/      → American Economic Review 根目录入口
 ├── Journal-of-Finance/            → Journal of Finance 根目录入口
+├── Xitong-Gongcheng-Xuebao/       → 《系统工程学报》根目录入口
 ├── ...                            → 其余 196 个根目录期刊入口
 │   # 仓库内目录包（first-party，在本仓库内编写维护）
 ├── Economic-Research-Journal-Skills/      → 《经济研究》（18 skills）
@@ -1353,6 +1369,7 @@ awesome-journal-skills/
 ├── Journal-of-Financial-Research-Skills/  → 《金融研究》（12 skills）
 ├── China-Industrial-Economics-Skills/     → 《中国工业经济》（13 skills）
 ├── Journal-of-Management-Sciences-in-China-Skills/  → 《管理科学学报》（12 skills）
+├── Journal-of-Systems-Engineering-Skills/           → 《系统工程学报》（12 skills）
 ├── Nankai-Business-Review-Skills/         → 《南开管理评论》（12 skills）
 ├── Accounting-Research-Skills/            → 《会计研究》（13 skills）
 ├── Sociological-Studies-Skills/           → 《社会学研究》（12 skills）
@@ -1555,7 +1572,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 299 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 300 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1648,7 +1665,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，补齐了营销与会计的剩余旗舰刊（JIM · JPP\&M · AOS），并新增一批学科旗舰深度包——自然科学（Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters）、语言学（Language）、中文重点刊（财贸经济 · 中国管理科学），同时把地理学综述刊 Progress in Human Geography 重建为规范深度包，全仓库现共 **299 个 pack / 4154 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，补齐了营销与会计的剩余旗舰刊（JIM · JPP\&M · AOS），并新增一批学科旗舰深度包——自然科学（Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters）、语言学（Language）、中文重点刊（财贸经济 · 中国管理科学 · 系统工程学报），同时把地理学综述刊 Progress in Human Geography 重建为规范深度包，全仓库现共 **300 个 pack / 4166 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1662,8 +1679,8 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   * [Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) —— 30 本英文临床专科期刊
   * [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   * [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
-* **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-* **单刊/单会全流程深度包（约 12 步）** —— 289 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
+* **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 201 个根目录轻量入口文件夹便于首页浏览。
+* **单刊/单会全流程深度包（约 12 步）** —— 290 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
   * **英文经济学：** AER（外链收录）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   * **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   * **英文管理 / 运营 / 信息系统：** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M\&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
@@ -2142,7 +2159,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 python3 tools/run_checks.py
 ```
 
-GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 计数、精选 pack 计数、200 个根目录期刊入口及其 canonical skill 指向、pack README / license 是否齐全、中文深度包 source map、plugin / marketplace 漂移、`SKILL.md` frontmatter、README 内部链接、Python 工具语法、空白字符，以及严重技能克隆。CI 从 `tools/clone_audit.py --threshold 0.75` 开始报告相似对，仅在达到 `--fail-threshold 0.90` 时失败。
+GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 计数、精选 pack 计数、201 个根目录期刊入口及其 canonical skill 指向、pack README / license 是否齐全、中文深度包 source map、plugin / marketplace 漂移、`SKILL.md` frontmatter、README 内部链接、Python 工具语法、空白字符，以及严重技能克隆。CI 从 `tools/clone_audit.py --threshold 0.75` 开始报告相似对，仅在达到 `--fail-threshold 0.90` 时失败。
 
 收录到本索引的质量门槛：
 
@@ -2158,32 +2175,32 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 更宽口径的 agent skill 合集（与本索引互补）：
 
-* [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) ⭐ 43,340 | 🐛 20 | 🌐 Python | 📅 2026-08-20 — 通用的 research → write → review → revise → finalize 科研流水线 skill 包。
-* [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) ⭐ 3,498 | 🐛 1 | 🌐 Stata | 📅 2026-08-17 — 精选 23,000+ agent skills，覆盖 8 大社科学科的实证研究（由 CoPaper.AI / Stanford REAP 维护）。
+* [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) ⭐ 43,442 | 🐛 20 | 🌐 Python | 📅 2026-08-20 — 通用的 research → write → review → revise → finalize 科研流水线 skill 包。
+* [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) ⭐ 3,514 | 🐛 2 | 🌐 Stata | 📅 2026-08-17 — 精选 23,000+ agent skills，覆盖 8 大社科学科的实证研究（由 CoPaper.AI / Stanford REAP 维护）。
 
 以外链形式收录（不再 vendored 进本仓库；点击前往各自上游仓库）：
 
-* [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,532 | 🐛 2 | 🌐 Python | 📅 2026-08-22
-* [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,155 | 🐛 3 | 🌐 Python | 📅 2026-08-21
-* [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,097 | 🐛 2 | 🌐 Python | 📅 2026-05-14
-* [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) ⭐ 449 | 🐛 0 | 🌐 TeX | 📅 2026-08-17
+* [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,679 | 🐛 0 | 🌐 Python | 📅 2026-08-23
+* [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,165 | 🐛 4 | 🌐 Python | 📅 2026-08-21
+* [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,128 | 🐛 2 | 🌐 Python | 📅 2026-05-14
+* [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) ⭐ 450 | 🐛 0 | 🌐 TeX | 📅 2026-08-17
 
 通用的科研写作 skill 包（定位不同——非特定期刊，仅供参考）：
 
-* [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) ⭐ 6,227 | 🐛 0 | 📅 2026-06-23 —— ML/CV/NLP 论文写作，源自彭思达老师公开笔记。
-* [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) ⭐ 2,240 | 🐛 3 | 🌐 Python | 📅 2026-08-19 / [scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) ⭐ 34,131 | 🐛 8 | 🌐 Python | 📅 2026-08-19 —— 通用科学写作。
-* [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) ⭐ 1,200 | 🐛 1 | 🌐 Python | 📅 2026-01-04 —— strategist（规划）+ composer（写作）双 skill，含质量检查点。
-* [qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) ⭐ 818 | 🐛 0 | 🌐 Python | 📅 2026-07-20 —— 沁言学术，177+ skill，覆盖 17 个学科。
-* [agent-research-skills](https://github.com/lingzhi227/agent-research-skills) ⭐ 288 | 🐛 5 | 🌐 Python | 📅 2026-02-27 —— deep-research 系统性文献综述。
+* [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) ⭐ 6,243 | 🐛 0 | 📅 2026-06-23 —— ML/CV/NLP 论文写作，源自彭思达老师公开笔记。
+* [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) ⭐ 2,243 | 🐛 3 | 🌐 Python | 📅 2026-08-19 / [scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) ⭐ 34,184 | 🐛 8 | 🌐 Python | 📅 2026-08-19 —— 通用科学写作。
+* [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) ⭐ 1,203 | 🐛 1 | 🌐 Python | 📅 2026-01-04 —— strategist（规划）+ composer（写作）双 skill，含质量检查点。
+* [qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) ⭐ 819 | 🐛 0 | 🌐 Python | 📅 2026-07-20 —— 沁言学术，177+ skill，覆盖 17 个学科。
+* [agent-research-skills](https://github.com/lingzhi227/agent-research-skills) ⭐ 289 | 🐛 5 | 🌐 Python | 📅 2026-02-27 —— deep-research 系统性文献综述。
 * [academic-writing-agents](https://github.com/andrehuang/academic-writing-agents) ⭐ 164 | 🐛 1 | 📅 2026-05-11 —— 多 agent 编排，含审稿/检索/起草/润色等专家 agent。
 * [paper-writer-skill](https://github.com/kgraph57/paper-writer-skill) ⭐ 53 | 🐛 0 | 🌐 Python | 📅 2026-08-12 —— 全流程学术论文写作（IMRAD、文献管理、质量清单）。
 * [literature-review-skill](https://github.com/YANZHANLIN/literature-review-skill) ⭐ 12 | 🐛 0 | 📅 2026-05-08 —— 5 步文献综述流水线（检索/获取/精读/综述/章节）。
 
 自然科学 / 生命科学 skill 库（覆盖广，非特定期刊，仅供参考）：
 
-* [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) ⭐ 34,131 | 🐛 8 | 🌐 Python | 📅 2026-08-19（K-Dense）—— 140+ 科学 skill + 100+ 科学数据库，覆盖生物/化学/医学，兼容开放 Agent Skills 标准。
+* [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) ⭐ 34,184 | 🐛 8 | 🌐 Python | 📅 2026-08-19（K-Dense）—— 140+ 科学 skill + 100+ 科学数据库，覆盖生物/化学/医学，兼容开放 Agent Skills 标准。
 * [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) ⭐ 340 | 🐛 8 | 🌐 Python | 📅 2026-08-21 —— 197 个生物信息与生命科学 skill（RNA-seq、单细胞、蛋白组、药物发现）。
-* [research-skills](https://github.com/neuromechanist/research-skills) ⭐ 42 | 🐛 1 | 🌐 Python | 📅 2026-08-13 —— 科研插件，带**多刊手稿与图件格式预设**（Nature / Science / PNAS / Cell / IEEE）、文献检索、基金写作。最接近"按刊定制包"的第三方方案——但它是面向多刊套格式，而非深度编码单一期刊的编辑文化。
+* [research-skills](https://github.com/neuromechanist/research-skills) ⭐ 43 | 🐛 1 | 🌐 Python | 📅 2026-08-13 —— 科研插件，带**多刊手稿与图件格式预设**（Nature / Science / PNAS / Cell / IEEE）、文献检索、基金写作。最接近"按刊定制包"的第三方方案——但它是面向多刊套格式，而非深度编码单一期刊的编辑文化。
 
 ***
 
@@ -2195,7 +2212,7 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 | ------------ | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | 🏛️ **学术血统** | **Stanford REAP**                                                                                          | 本仓库单刊识别标准与编委规范背后的实证经济学方法论与应用因果推断传统            |
 | 🔧 **工程交付**  | **[CoPaper.AI](https://copaper.ai)**                                                                       | 将这些单刊 Skills 串成端到端、可直接投稿的论文流水线的实证研究 AI 助手     |
-| ⚙️ **开源引擎**  | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 \| 🐛 1 \| 🌐 Python \| 📅 2026-08-21** | 驱动 CoPaper.AI 的因果推断引擎（900+ 函数，MIT 许可，JOSS 在投） |
+| ⚙️ **开源引擎**  | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 \| 🐛 1 \| 🌐 Python \| 📅 2026-08-23** | 驱动 CoPaper.AI 的因果推断引擎（900+ 函数，MIT 许可，JOSS 在投） |
 
 > 💡 **想开箱即用？** 跳过自行组装 —— 试试 [**→ copaper.ai**](https://copaper.ai)，让斯坦福方法论团队为你跑通端到端的实证流水线。
 
@@ -2256,4 +2273,4 @@ MIT
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-22._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-23._
