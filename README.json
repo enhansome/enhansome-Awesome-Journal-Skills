@@ -1,6 +1,153 @@
 {
   "items": [
     {
+      "description": "收录范围。 本索引聚焦经管社科中英文顶刊、人文与广义社科顶刊（社会学 / 人类学 / 法学 / 地理学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊、工程技术英文顶刊，以及 AI 优先的计算机科学顶会。每个重点期刊都是一个深度包（单刊全流程，约 12 步）；九个广度合集则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——Computer-Science-Conference-Skills 覆盖 155 个 CS 会议 + router，Chinese-SocialScience-Journal-Skills 覆盖 103 个中文社科期刊 profile，English-SocialScience-Journal-Skills 覆盖 100 本英文主流经管/商科期刊，English-NaturalScience-Journal-Skills 覆盖 154 本英文主流自然科学/临床/物理/形式科学期刊，Engineering-Technology-Journal-Skills 覆盖 40 本英文工程技术旗舰期刊，Agriculture-Environment-Journal-Skills 覆盖 30 本英文农业·环境·地球科学旗舰期刊，Clinical-Medicine-Journal-Skills 覆盖 30 本英文临床专科旗舰期刊，English-Humanities-Journal-Skills 覆盖 36 本英文人文旗舰期刊，Chinese-Sport-Science-Journal-Skills 覆盖 12 本中文体育学旗舰期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以自有深度包形态提供，与收录的第三方 Nature 包并列。",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AER-Skills",
+              "description": "American Economic Review + AER:Insights + AEJ 系列 AER-skills 经济学（Top-5） 9",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1248751622,
+                "language": "Python",
+                "last_commit": "2026-07-15T17:56:09Z",
+                "owner": "brycewang-stanford",
+                "repo": "AER-Skills",
+                "stars": 43
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "社会科学 · 英文顶刊 —— 深度独立包"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Nature（学术表达 + 科研绘图）",
+              "description": "nature-skills 自然科学（Nature 系） upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1219596233,
+                "language": "Python",
+                "last_commit": "2026-08-24T07:01:14Z",
+                "owner": "Yuan1z0825",
+                "repo": "nature-skills",
+                "stars": 36840
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Nature 风格手稿（起草 · 修改 · 审计 · 重投）",
+              "description": "Nature-Paper-Skills 自然科学（Nature 系） upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1208279709,
+                "language": "TeX",
+                "last_commit": "2026-08-17T05:45:38Z",
+                "owner": "Boom5426",
+                "repo": "Nature-Paper-Skills",
+                "stars": 453
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "自然科学 · 英文顶刊 —— 第三方收录"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Claude Scholar",
+              "description": "claude-scholar 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1143237475,
+                "language": "Python",
+                "last_commit": "2026-08-21T07:40:33Z",
+                "owner": "Galaxy-Dawn",
+                "repo": "claude-scholar",
+                "stars": 5177
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Codex/Claude 学术 Skills",
+              "description": "codex-claude-academic-skills 阅读 · 写作 · 科学计算 upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1238374602,
+                "language": "Python",
+                "last_commit": "2026-05-14T09:08:48Z",
+                "owner": "zLanqing",
+                "repo": "codex-claude-academic-skills",
+                "stars": 3153
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Econ Writing Skill",
+              "description": "econ-writing-skill 经济学论文写作：50+ 权威指南提炼（Claude Code / Codex） upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1159184254,
+                "language": "Python",
+                "last_commit": "2026-07-20T00:11:11Z",
+                "owner": "hanlulong",
+                "repo": "econ-writing-skill",
+                "stars": 557
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Econ Paper Review Skill",
+              "description": "econ-paper-review-skill 经济学论文 AI 审稿：可验证审稿意见 + 修改计划（Claude Code / Codex） upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1298724548,
+                "language": "Python",
+                "last_commit": "2026-08-01T19:49:05Z",
+                "owner": "hanlulong",
+                "repo": "econ-paper-review-skill",
+                "stars": 12
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Econ Slides Skill",
+              "description": "econ-slides-skill 论文 → Beamer 学术演讲 + 定时讲稿（Claude Code / Codex） upstream",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1301463756,
+                "language": "TeX",
+                "last_commit": "2026-07-20T01:23:21Z",
+                "owner": "hanlulong",
+                "repo": "econ-slides-skill",
+                "stars": 11
+              }
+            }
+          ],
+          "description": "计数口径。 首页 4166 = 仓库内全部 SKILL.md，分布在 300 个 pack 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：3487（290 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ 668（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ 11（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→阶梯定价→刊物核验→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= 4166。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 python3 tools/audit_repo.py 在 CI 中强制校验，README 与实际文件数不允许漂移。",
+          "node_type": "group",
+          "title": "通用研究工具 —— 第三方收录"
+        }
+      ],
+      "title": "📚 Skill Pack 一览"
+    },
+    {
       "description": "更宽口径的 agent skill 合集（与本索引互补）：\n以外链形式收录（不再 vendored 进本仓库；点击前往各自上游仓库）：\n通用的科研写作 skill 包（定位不同——非特定期刊，仅供参考）：\n自然科学 / 生命科学 skill 库（覆盖广，非特定期刊，仅供参考）：",
       "items": [
         {
@@ -12,10 +159,10 @@
             "archived": false,
             "id": 1167300963,
             "language": "Python",
-            "last_commit": "2026-08-20T05:26:10Z",
+            "last_commit": "2026-08-24T10:04:28Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 43442
+            "stars": 43544
           }
         },
         {
@@ -27,10 +174,10 @@
             "archived": false,
             "id": 1200204014,
             "language": "Stata",
-            "last_commit": "2026-08-17T09:24:37Z",
+            "last_commit": "2026-08-24T05:28:12Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3514
+            "stars": 3527
           }
         },
         {
@@ -42,10 +189,10 @@
             "archived": false,
             "id": 1219596233,
             "language": "Python",
-            "last_commit": "2026-08-23T09:54:37Z",
+            "last_commit": "2026-08-24T07:01:14Z",
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 36679
+            "stars": 36840
           }
         },
         {
@@ -60,7 +207,7 @@
             "last_commit": "2026-08-21T07:40:33Z",
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5165
+            "stars": 5177
           }
         },
         {
@@ -75,7 +222,7 @@
             "last_commit": "2026-05-14T09:08:48Z",
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3128
+            "stars": 3153
           }
         },
         {
@@ -90,7 +237,7 @@
             "last_commit": "2026-08-17T05:45:38Z",
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 450
+            "stars": 453
           }
         },
         {
@@ -105,7 +252,7 @@
             "last_commit": "2026-06-23T02:28:54Z",
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 6243
+            "stars": 6259
           }
         },
         {
@@ -120,7 +267,7 @@
             "last_commit": "2026-08-19T09:24:21Z",
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2243
+            "stars": 2246
           }
         },
         {
@@ -135,7 +282,7 @@
             "last_commit": "2026-01-04T02:42:38Z",
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1203
+            "stars": 1209
           }
         },
         {
@@ -150,7 +297,7 @@
             "last_commit": "2026-07-20T11:43:50Z",
             "owner": "LeonChaoX",
             "repo": "qinyan-academic-skills",
-            "stars": 819
+            "stars": 828
           }
         },
         {
@@ -165,7 +312,7 @@
             "last_commit": "2026-02-27T04:11:14Z",
             "owner": "lingzhi227",
             "repo": "agent-research-skills",
-            "stars": 289
+            "stars": 292
           }
         },
         {
@@ -180,7 +327,7 @@
             "last_commit": "2026-05-11T12:54:27Z",
             "owner": "andrehuang",
             "repo": "academic-writing-agents",
-            "stars": 164
+            "stars": 166
           }
         },
         {
@@ -222,10 +369,10 @@
             "archived": false,
             "id": 1079456184,
             "language": "Python",
-            "last_commit": "2026-08-19T22:41:49Z",
+            "last_commit": "2026-08-24T09:22:55Z",
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 34184
+            "stars": 34243
           }
         },
         {
@@ -240,7 +387,7 @@
             "last_commit": "2026-08-21T06:59:43Z",
             "owner": "jaechang-hits",
             "repo": "SciAgent-Skills",
-            "stars": 340
+            "stars": 342
           }
         },
         {
@@ -263,7 +410,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T22:51:27.913Z",
+    "last_updated": "2026-08-24T14:14:47.441Z",
     "original_repository": "brycewang-stanford/Awesome-Journal-Skills",
     "original_repository_id": 1248879346,
     "original_repository_sha": "ac572006096bf19368f5b93e27a1499502bd370c",
