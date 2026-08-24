@@ -6,9 +6,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code) ⭐ 142,838 | 🐛 15,168 | 🌐 Python | 📅 2026-08-23
+[![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code) ⭐ 142,877 | 🐛 15,238 | 🌐 Python | 📅 2026-08-23
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
-[![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 | 🐛 1 | 🌐 Python | 📅 2026-08-24
+[![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 | 🐛 0 | 🌐 Python | 📅 2026-08-24
 
 [English](README.en.md) | 简体中文
 
@@ -407,7 +407,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 | **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/`                                                                                                                                                                                                                                                                                                                  | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。           | 你在 GitHub 根目录按期刊名浏览。           |
 | **深度包**，例如 `Economic-Research-Journal-Skills/`、`Cell-Skills/` 或 `Quarterly-Journal-of-Economics-Skills/`                                                                                                                                                                                                                                                                            | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。          | 目标期刊已确定，且需要完整投稿生命周期支持。         |
 | **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/`、`Agriculture-Environment-Journal-Skills/`、`Clinical-Medicine-Journal-Skills/`、`English-Humanities-Journal-Skills/`、`Chinese-Sport-Science-Journal-Skills/`、`Computer-Science-Conference-Skills/`         | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
-| **第三方收录（外链）**，例如 [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,840 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-24、[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,177 \| 🐛 4 \| 🌐 Python \| 📅 2026-08-21 或 [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,153 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 第三方上游包或通用学术工具，以外链形式收录（不再 vendored 进本仓库）。                 | 你需要跨期刊的研究、写作或工作流支持。            |
+| **第三方收录（外链）**，例如 [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,864 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-24、[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,181 \| 🐛 4 \| 🌐 Python \| 📅 2026-08-21 或 [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,159 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 第三方上游包或通用学术工具，以外链形式收录（不再 vendored 进本仓库）。                 | 你需要跨期刊的研究、写作或工作流支持。            |
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
 
@@ -1328,16 +1328,16 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 
 | 期刊                                 | 仓库                                                                                                              | 学科             | 状态       |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------- | -------- |
-| **Nature**（学术表达 + 科研绘图）            | [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,840 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-24     | 自然科学（Nature 系） | upstream |
+| **Nature**（学术表达 + 科研绘图）            | [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,864 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-24     | 自然科学（Nature 系） | upstream |
 | **Nature 风格手稿**（起草 · 修改 · 审计 · 重投） | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) ⭐ 453 \| 🐛 0 \| 🌐 TeX \| 📅 2026-08-17 | 自然科学（Nature 系） | upstream |
 
 ### 通用研究工具 —— 第三方收录
 
 | Pack                        | 仓库                                                                                                                                     | 范围                                              | 状态       |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- |
-| **Claude Scholar**          | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,177 \| 🐛 4 \| 🌐 Python \| 📅 2026-08-21                          | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex）    | upstream |
-| **Codex/Claude 学术 Skills**  | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,153 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 阅读 · 写作 · 科学计算                                  | upstream |
-| **Econ Writing Skill**      | [econ-writing-skill](https://github.com/hanlulong/econ-writing-skill) ⭐ 557 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-20                      | 经济学论文写作：50+ 权威指南提炼（Claude Code / Codex）         | upstream |
+| **Claude Scholar**          | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,181 \| 🐛 4 \| 🌐 Python \| 📅 2026-08-21                          | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex）    | upstream |
+| **Codex/Claude 学术 Skills**  | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,159 \| 🐛 2 \| 🌐 Python \| 📅 2026-05-14 | 阅读 · 写作 · 科学计算                                  | upstream |
+| **Econ Writing Skill**      | [econ-writing-skill](https://github.com/hanlulong/econ-writing-skill) ⭐ 558 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-20                      | 经济学论文写作：50+ 权威指南提炼（Claude Code / Codex）         | upstream |
 | **Econ Paper Review Skill** | [econ-paper-review-skill](https://github.com/hanlulong/econ-paper-review-skill) ⭐ 12 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-01             | 经济学论文 AI 审稿：可验证审稿意见 + 修改计划（Claude Code / Codex） | upstream |
 | **Econ Slides Skill**       | [econ-slides-skill](https://github.com/hanlulong/econ-slides-skill) ⭐ 11 \| 🐛 1 \| 🌐 TeX \| 📅 2026-07-20                            | 论文 → Beamer 学术演讲 + 定时讲稿（Claude Code / Codex）    | upstream |
 
@@ -2175,30 +2175,30 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 更宽口径的 agent skill 合集（与本索引互补）：
 
-* [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) ⭐ 43,544 | 🐛 18 | 🌐 Python | 📅 2026-08-24 — 通用的 research → write → review → revise → finalize 科研流水线 skill 包。
-* [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) ⭐ 3,527 | 🐛 2 | 🌐 Stata | 📅 2026-08-24 — 精选 23,000+ agent skills，覆盖 8 大社科学科的实证研究（由 CoPaper.AI / Stanford REAP 维护）。
+* [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) ⭐ 43,565 | 🐛 18 | 🌐 Python | 📅 2026-08-24 — 通用的 research → write → review → revise → finalize 科研流水线 skill 包。
+* [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) ⭐ 3,530 | 🐛 2 | 🌐 Stata | 📅 2026-08-24 — 精选 23,000+ agent skills，覆盖 8 大社科学科的实证研究（由 CoPaper.AI / Stanford REAP 维护）。
 
 以外链形式收录（不再 vendored 进本仓库；点击前往各自上游仓库）：
 
-* [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,840 | 🐛 0 | 🌐 Python | 📅 2026-08-24
-* [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,177 | 🐛 4 | 🌐 Python | 📅 2026-08-21
-* [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,153 | 🐛 2 | 🌐 Python | 📅 2026-05-14
+* [nature-skills](https://github.com/Yuan1z0825/nature-skills) ⭐ 36,864 | 🐛 0 | 🌐 Python | 📅 2026-08-24
+* [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ⭐ 5,181 | 🐛 4 | 🌐 Python | 📅 2026-08-21
+* [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) ⭐ 3,159 | 🐛 2 | 🌐 Python | 📅 2026-05-14
 * [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) ⭐ 453 | 🐛 0 | 🌐 TeX | 📅 2026-08-17
 
 通用的科研写作 skill 包（定位不同——非特定期刊，仅供参考）：
 
-* [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) ⭐ 6,259 | 🐛 0 | 📅 2026-06-23 —— ML/CV/NLP 论文写作，源自彭思达老师公开笔记。
-* [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) ⭐ 2,246 | 🐛 3 | 🌐 Python | 📅 2026-08-19 / [scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) ⭐ 34,243 | 🐛 8 | 🌐 Python | 📅 2026-08-24 —— 通用科学写作。
-* [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) ⭐ 1,209 | 🐛 1 | 🌐 Python | 📅 2026-01-04 —— strategist（规划）+ composer（写作）双 skill，含质量检查点。
+* [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) ⭐ 6,268 | 🐛 0 | 📅 2026-06-23 —— ML/CV/NLP 论文写作，源自彭思达老师公开笔记。
+* [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) ⭐ 2,248 | 🐛 3 | 🌐 Python | 📅 2026-08-19 / [scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) ⭐ 34,285 | 🐛 8 | 🌐 Python | 📅 2026-08-24 —— 通用科学写作。
+* [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) ⭐ 1,211 | 🐛 1 | 🌐 Python | 📅 2026-01-04 —— strategist（规划）+ composer（写作）双 skill，含质量检查点。
 * [qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) ⭐ 828 | 🐛 0 | 🌐 Python | 📅 2026-07-20 —— 沁言学术，177+ skill，覆盖 17 个学科。
 * [agent-research-skills](https://github.com/lingzhi227/agent-research-skills) ⭐ 292 | 🐛 5 | 🌐 Python | 📅 2026-02-27 —— deep-research 系统性文献综述。
-* [academic-writing-agents](https://github.com/andrehuang/academic-writing-agents) ⭐ 166 | 🐛 1 | 📅 2026-05-11 —— 多 agent 编排，含审稿/检索/起草/润色等专家 agent。
+* [academic-writing-agents](https://github.com/andrehuang/academic-writing-agents) ⭐ 167 | 🐛 1 | 📅 2026-05-11 —— 多 agent 编排，含审稿/检索/起草/润色等专家 agent。
 * [paper-writer-skill](https://github.com/kgraph57/paper-writer-skill) ⭐ 53 | 🐛 0 | 🌐 Python | 📅 2026-08-12 —— 全流程学术论文写作（IMRAD、文献管理、质量清单）。
 * [literature-review-skill](https://github.com/YANZHANLIN/literature-review-skill) ⭐ 12 | 🐛 0 | 📅 2026-05-08 —— 5 步文献综述流水线（检索/获取/精读/综述/章节）。
 
 自然科学 / 生命科学 skill 库（覆盖广，非特定期刊，仅供参考）：
 
-* [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) ⭐ 34,243 | 🐛 8 | 🌐 Python | 📅 2026-08-24（K-Dense）—— 140+ 科学 skill + 100+ 科学数据库，覆盖生物/化学/医学，兼容开放 Agent Skills 标准。
+* [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) ⭐ 34,285 | 🐛 8 | 🌐 Python | 📅 2026-08-24（K-Dense）—— 140+ 科学 skill + 100+ 科学数据库，覆盖生物/化学/医学，兼容开放 Agent Skills 标准。
 * [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) ⭐ 342 | 🐛 8 | 🌐 Python | 📅 2026-08-21 —— 197 个生物信息与生命科学 skill（RNA-seq、单细胞、蛋白组、药物发现）。
 * [research-skills](https://github.com/neuromechanist/research-skills) ⭐ 43 | 🐛 1 | 🌐 Python | 📅 2026-08-13 —— 科研插件，带**多刊手稿与图件格式预设**（Nature / Science / PNAS / Cell / IEEE）、文献检索、基金写作。最接近"按刊定制包"的第三方方案——但它是面向多刊套格式，而非深度编码单一期刊的编辑文化。
 
@@ -2212,7 +2212,7 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 | ------------ | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | 🏛️ **学术血统** | **Stanford REAP**                                                                                          | 本仓库单刊识别标准与编委规范背后的实证经济学方法论与应用因果推断传统            |
 | 🔧 **工程交付**  | **[CoPaper.AI](https://copaper.ai)**                                                                       | 将这些单刊 Skills 串成端到端、可直接投稿的论文流水线的实证研究 AI 助手     |
-| ⚙️ **开源引擎**  | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 \| 🐛 1 \| 🌐 Python \| 📅 2026-08-24** | 驱动 CoPaper.AI 的因果推断引擎（900+ 函数，MIT 许可，JOSS 在投） |
+| ⚙️ **开源引擎**  | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-24** | 驱动 CoPaper.AI 的因果推断引擎（900+ 函数，MIT 许可，JOSS 在投） |
 
 > 💡 **想开箱即用？** 跳过自行组装 —— 试试 [**→ copaper.ai**](https://copaper.ai)，让斯坦福方法论团队为你跑通端到端的实证流水线。
 
@@ -2257,7 +2257,7 @@ MIT
 
   <br/>
 
-由 <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a> 维护，孵化于 <a href="https://reap.fsi.stanford.edu/"><strong>Stanford REAP</strong></a> · 由 [StatsPAI](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 | 🐛 1 | 🌐 Python | 📅 2026-08-24 驱动（900+ 函数，MIT）
+由 <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a> 维护，孵化于 <a href="https://reap.fsi.stanford.edu/"><strong>Stanford REAP</strong></a> · 由 [StatsPAI](https://github.com/brycewang-stanford/StatsPAI) ⭐ 299 | 🐛 0 | 🌐 Python | 📅 2026-08-24 驱动（900+ 函数，MIT）
 
 </div>
 
