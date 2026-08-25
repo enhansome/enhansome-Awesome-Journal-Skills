@@ -36,10 +36,10 @@
                 "archived": false,
                 "id": 1219596233,
                 "language": "Python",
-                "last_commit": "2026-08-24T07:01:14Z",
+                "last_commit": "2026-08-25T02:43:05Z",
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 36864
+                "stars": 36929
               }
             },
             {
@@ -54,7 +54,7 @@
                 "last_commit": "2026-08-17T05:45:38Z",
                 "owner": "Boom5426",
                 "repo": "Nature-Paper-Skills",
-                "stars": 453
+                "stars": 454
               }
             }
           ],
@@ -76,7 +76,7 @@
                 "last_commit": "2026-08-21T07:40:33Z",
                 "owner": "Galaxy-Dawn",
                 "repo": "claude-scholar",
-                "stars": 5181
+                "stars": 5186
               }
             },
             {
@@ -91,7 +91,7 @@
                 "last_commit": "2026-05-14T09:08:48Z",
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 3159
+                "stars": 3166
               }
             },
             {
@@ -162,7 +162,7 @@
             "last_commit": "2026-08-24T10:04:28Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 43565
+            "stars": 43597
           }
         },
         {
@@ -177,7 +177,7 @@
             "last_commit": "2026-08-24T05:28:12Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3530
+            "stars": 3533
           }
         },
         {
@@ -189,10 +189,10 @@
             "archived": false,
             "id": 1219596233,
             "language": "Python",
-            "last_commit": "2026-08-24T07:01:14Z",
+            "last_commit": "2026-08-25T02:43:05Z",
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 36864
+            "stars": 36929
           }
         },
         {
@@ -207,7 +207,7 @@
             "last_commit": "2026-08-21T07:40:33Z",
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5181
+            "stars": 5186
           }
         },
         {
@@ -222,7 +222,7 @@
             "last_commit": "2026-05-14T09:08:48Z",
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3159
+            "stars": 3166
           }
         },
         {
@@ -237,7 +237,7 @@
             "last_commit": "2026-08-17T05:45:38Z",
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 453
+            "stars": 454
           }
         },
         {
@@ -252,7 +252,7 @@
             "last_commit": "2026-06-23T02:28:54Z",
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 6268
+            "stars": 6279
           }
         },
         {
@@ -282,7 +282,7 @@
             "last_commit": "2026-01-04T02:42:38Z",
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1211
+            "stars": 1212
           }
         },
         {
@@ -372,7 +372,7 @@
             "last_commit": "2026-08-24T09:22:55Z",
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 34285
+            "stars": 34340
           }
         },
         {
@@ -410,7 +410,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T22:55:54.984Z",
+    "last_updated": "2026-08-25T06:09:07.012Z",
     "original_repository": "brycewang-stanford/Awesome-Journal-Skills",
     "original_repository_id": 1248879346,
     "original_repository_sha": "ac572006096bf19368f5b93e27a1499502bd370c",
