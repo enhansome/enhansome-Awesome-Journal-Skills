@@ -36,10 +36,10 @@
                 "archived": false,
                 "id": 1219596233,
                 "language": "Python",
-                "last_commit": "2026-08-25T02:43:05Z",
+                "last_commit": "2026-08-27T11:09:11Z",
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 37311
+                "stars": 37423
               }
             },
             {
@@ -54,7 +54,7 @@
                 "last_commit": "2026-08-17T05:45:38Z",
                 "owner": "Boom5426",
                 "repo": "Nature-Paper-Skills",
-                "stars": 458
+                "stars": 460
               }
             }
           ],
@@ -73,10 +73,10 @@
                 "archived": false,
                 "id": 1143237475,
                 "language": "Python",
-                "last_commit": "2026-08-21T07:40:33Z",
+                "last_commit": "2026-08-27T10:20:31Z",
                 "owner": "Galaxy-Dawn",
                 "repo": "claude-scholar",
-                "stars": 5219
+                "stars": 5223
               }
             },
             {
@@ -91,7 +91,7 @@
                 "last_commit": "2026-05-14T09:08:48Z",
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 3223
+                "stars": 3236
               }
             },
             {
@@ -106,7 +106,7 @@
                 "last_commit": "2026-07-20T00:11:11Z",
                 "owner": "hanlulong",
                 "repo": "econ-writing-skill",
-                "stars": 565
+                "stars": 566
               }
             },
             {
@@ -159,10 +159,10 @@
             "archived": false,
             "id": 1167300963,
             "language": "Python",
-            "last_commit": "2026-08-27T02:59:56Z",
+            "last_commit": "2026-08-27T09:55:24Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 43855
+            "stars": 43908
           }
         },
         {
@@ -174,10 +174,10 @@
             "archived": false,
             "id": 1200204014,
             "language": "Stata",
-            "last_commit": "2026-08-26T19:43:45Z",
+            "last_commit": "2026-08-27T06:07:36Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3560
+            "stars": 3568
           }
         },
         {
@@ -189,10 +189,10 @@
             "archived": false,
             "id": 1219596233,
             "language": "Python",
-            "last_commit": "2026-08-25T02:43:05Z",
+            "last_commit": "2026-08-27T11:09:11Z",
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 37311
+            "stars": 37423
           }
         },
         {
@@ -204,10 +204,10 @@
             "archived": false,
             "id": 1143237475,
             "language": "Python",
-            "last_commit": "2026-08-21T07:40:33Z",
+            "last_commit": "2026-08-27T10:20:31Z",
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5219
+            "stars": 5223
           }
         },
         {
@@ -222,7 +222,7 @@
             "last_commit": "2026-05-14T09:08:48Z",
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3223
+            "stars": 3236
           }
         },
         {
@@ -237,7 +237,7 @@
             "last_commit": "2026-08-17T05:45:38Z",
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 458
+            "stars": 460
           }
         },
         {
@@ -252,7 +252,7 @@
             "last_commit": "2026-06-23T02:28:54Z",
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 6318
+            "stars": 6329
           }
         },
         {
@@ -267,7 +267,7 @@
             "last_commit": "2026-08-19T09:24:21Z",
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2255
+            "stars": 2256
           }
         },
         {
@@ -312,7 +312,7 @@
             "last_commit": "2026-02-27T04:11:14Z",
             "owner": "lingzhi227",
             "repo": "agent-research-skills",
-            "stars": 295
+            "stars": 296
           }
         },
         {
@@ -327,7 +327,7 @@
             "last_commit": "2026-05-11T12:54:27Z",
             "owner": "andrehuang",
             "repo": "academic-writing-agents",
-            "stars": 170
+            "stars": 171
           }
         },
         {
@@ -372,7 +372,7 @@
             "last_commit": "2026-08-24T09:22:55Z",
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 34805
+            "stars": 34994
           }
         },
         {
@@ -384,7 +384,7 @@
             "archived": false,
             "id": 1160505943,
             "language": "Python",
-            "last_commit": "2026-08-21T06:59:43Z",
+            "last_commit": "2026-08-27T05:17:53Z",
             "owner": "jaechang-hits",
             "repo": "SciAgent-Skills",
             "stars": 344
@@ -410,9 +410,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T03:31:11.485Z",
-    "original_repository": "brycewang-stanford/Awesome-Journal-Skills",
-    "original_repository_id": 1248879346,
+    "last_updated": "2026-08-27T11:27:05.194Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 1248879346,
+      "language": "Stata",
+      "last_commit": "2026-08-26T22:18:49Z",
+      "owner": "brycewang-stanford",
+      "repo": "Awesome-Journal-Skills",
+      "stars": 1031
+    },
     "original_repository_sha": "36b2bbb357fa51c258311028af66721b5cf99347",
     "enhanced_repository": "enhansome/enhansome-Awesome-Journal-Skills",
     "enhanced_repository_description": null,
