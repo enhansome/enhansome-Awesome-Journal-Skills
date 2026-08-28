@@ -18,7 +18,8 @@
                 "owner": "brycewang-stanford",
                 "repo": "AER-Skills",
                 "stars": 44
-              }
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             }
           ],
           "description": null,
@@ -36,11 +37,12 @@
                 "archived": false,
                 "id": 1219596233,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:09:11Z",
+                "last_commit": "2026-08-28T05:00:55Z",
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 37423
-              }
+                "stars": 37534
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             },
             {
               "node_type": "item",
@@ -54,8 +56,9 @@
                 "last_commit": "2026-08-17T05:45:38Z",
                 "owner": "Boom5426",
                 "repo": "Nature-Paper-Skills",
-                "stars": 460
-              }
+                "stars": 461
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             }
           ],
           "description": null,
@@ -76,8 +79,9 @@
                 "last_commit": "2026-08-27T10:20:31Z",
                 "owner": "Galaxy-Dawn",
                 "repo": "claude-scholar",
-                "stars": 5223
-              }
+                "stars": 5235
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             },
             {
               "node_type": "item",
@@ -91,8 +95,9 @@
                 "last_commit": "2026-05-14T09:08:48Z",
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 3236
-              }
+                "stars": 3258
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             },
             {
               "node_type": "item",
@@ -106,8 +111,9 @@
                 "last_commit": "2026-07-20T00:11:11Z",
                 "owner": "hanlulong",
                 "repo": "econ-writing-skill",
-                "stars": 566
-              }
+                "stars": 567
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             },
             {
               "node_type": "item",
@@ -121,8 +127,9 @@
                 "last_commit": "2026-08-01T19:49:05Z",
                 "owner": "hanlulong",
                 "repo": "econ-paper-review-skill",
-                "stars": 12
-              }
+                "stars": 13
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             },
             {
               "node_type": "item",
@@ -137,7 +144,8 @@
                 "owner": "hanlulong",
                 "repo": "econ-slides-skill",
                 "stars": 12
-              }
+              },
+              "first_seen": "2026-08-28T06:15:50.725Z"
             }
           ],
           "description": "计数口径。 首页 4166 = 仓库内全部 SKILL.md，分布在 300 个 pack 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：3487（290 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ 668（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ 11（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→阶梯定价→刊物核验→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= 4166。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 python3 tools/audit_repo.py 在 CI 中强制校验，README 与实际文件数不允许漂移。",
@@ -162,8 +170,9 @@
             "last_commit": "2026-08-27T09:55:24Z",
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 43908
-          }
+            "stars": 43996
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -177,8 +186,9 @@
             "last_commit": "2026-08-27T06:07:36Z",
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3568
-          }
+            "stars": 3577
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -189,11 +199,12 @@
             "archived": false,
             "id": 1219596233,
             "language": "Python",
-            "last_commit": "2026-08-27T11:09:11Z",
+            "last_commit": "2026-08-28T05:00:55Z",
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 37423
-          }
+            "stars": 37534
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -207,8 +218,9 @@
             "last_commit": "2026-08-27T10:20:31Z",
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5223
-          }
+            "stars": 5235
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -222,8 +234,9 @@
             "last_commit": "2026-05-14T09:08:48Z",
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3236
-          }
+            "stars": 3258
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -237,8 +250,9 @@
             "last_commit": "2026-08-17T05:45:38Z",
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 460
-          }
+            "stars": 461
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -252,8 +266,9 @@
             "last_commit": "2026-06-23T02:28:54Z",
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 6329
-          }
+            "stars": 6344
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -268,7 +283,8 @@
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
             "stars": 2256
-          }
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -282,8 +298,9 @@
             "last_commit": "2026-01-04T02:42:38Z",
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1218
-          }
+            "stars": 1222
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -297,8 +314,9 @@
             "last_commit": "2026-07-20T11:43:50Z",
             "owner": "LeonChaoX",
             "repo": "qinyan-academic-skills",
-            "stars": 837
-          }
+            "stars": 840
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -312,8 +330,9 @@
             "last_commit": "2026-02-27T04:11:14Z",
             "owner": "lingzhi227",
             "repo": "agent-research-skills",
-            "stars": 296
-          }
+            "stars": 297
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -327,8 +346,9 @@
             "last_commit": "2026-05-11T12:54:27Z",
             "owner": "andrehuang",
             "repo": "academic-writing-agents",
-            "stars": 171
-          }
+            "stars": 173
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -343,7 +363,8 @@
             "owner": "kgraph57",
             "repo": "paper-writer-skill",
             "stars": 53
-          }
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -358,7 +379,8 @@
             "owner": "YANZHANLIN",
             "repo": "literature-review-skill",
             "stars": 14
-          }
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -372,8 +394,9 @@
             "last_commit": "2026-08-24T09:22:55Z",
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 34994
-          }
+            "stars": 35491
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -387,8 +410,9 @@
             "last_commit": "2026-08-27T05:17:53Z",
             "owner": "jaechang-hits",
             "repo": "SciAgent-Skills",
-            "stars": 344
-          }
+            "stars": 346
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         },
         {
           "node_type": "item",
@@ -403,14 +427,15 @@
             "owner": "neuromechanist",
             "repo": "research-skills",
             "stars": 43
-          }
+          },
+          "first_seen": "2026-08-28T06:15:50.725Z"
         }
       ],
       "title": "🔗 相关项目"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:27:05.194Z",
+    "last_updated": "2026-08-28T06:15:50.725Z",
     "original_repository_info": {
       "archived": false,
       "id": 1248879346,
@@ -418,7 +443,7 @@
       "last_commit": "2026-08-26T22:18:49Z",
       "owner": "brycewang-stanford",
       "repo": "Awesome-Journal-Skills",
-      "stars": 1031
+      "stars": 1033
     },
     "original_repository_sha": "36b2bbb357fa51c258311028af66721b5cf99347",
     "enhanced_repository": "enhansome/enhansome-Awesome-Journal-Skills",
