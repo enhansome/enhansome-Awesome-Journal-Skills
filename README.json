@@ -12,12 +12,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agent skills that help you publish in the AER faster — identification-first empirics, AEA-compliant replication, Keith-Head intros, R&R rebuttals for AER / AER:Insights / AEJ. | 助你更快发表 AER 论文的 agent skill 栈：识别优先实证、AEA 合规复现、Keith Head 式引言、R&R 审稿回复，覆盖选题到投稿全流程。",
+                "homepage": null,
                 "id": 1248751622,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-15T17:56:09Z",
+                "open_issues": 0,
                 "owner": "brycewang-stanford",
                 "repo": "AER-Skills",
-                "stars": 44
+                "stars": 44,
+                "topics": [
+                  "academic-writing",
+                  "aej",
+                  "aer",
+                  "agent-skills",
+                  "american-economic-review",
+                  "causal-inference",
+                  "claude-code",
+                  "claude-skills",
+                  "difference-in-differences",
+                  "econometrics",
+                  "economics",
+                  "event-study",
+                  "instrumental-variables",
+                  "llm",
+                  "python",
+                  "r-stats",
+                  "regression-discontinuity",
+                  "replication",
+                  "stata",
+                  "synthetic-control"
+                ]
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             }
@@ -35,12 +61,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "符合nature论文学术表达和科研绘图的Skill",
+                "homepage": null,
                 "id": 1219596233,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T05:00:55Z",
+                "open_issues": 0,
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 37534
+                "stars": 37667,
+                "topics": [
+                  "codex-skills",
+                  "nature",
+                  "nature-skills"
+                ]
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             },
@@ -51,12 +86,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agent skills for drafting, revising, auditing, and resubmitting Nature-style journal manuscripts.",
+                "homepage": null,
                 "id": 1208279709,
                 "language": "TeX",
+                "license": "MIT",
                 "last_commit": "2026-08-17T05:45:38Z",
+                "open_issues": 0,
                 "owner": "Boom5426",
                 "repo": "Nature-Paper-Skills",
-                "stars": 461
+                "stars": 465,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             }
@@ -74,12 +114,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
+                "homepage": null,
                 "id": 1143237475,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-27T10:20:31Z",
+                "open_issues": 3,
                 "owner": "Galaxy-Dawn",
                 "repo": "claude-scholar",
-                "stars": 5235
+                "stars": 5246,
+                "topics": [
+                  "academic-research",
+                  "ai-agents",
+                  "claude",
+                  "claude-code",
+                  "codex-cli",
+                  "developer-tools",
+                  "kimi-code",
+                  "mcp",
+                  "openai-codex",
+                  "opencode",
+                  "paper-writing",
+                  "zotero"
+                ]
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             },
@@ -90,12 +148,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "本仓库包含三个面向学术科研人员的Skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 PPT/Word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 MATLAB/Python 科学计算与期刊级图表生成。三个 Skill 专为中文科研用户设计，可在 Claude Code 和 codex 中一键调用。",
+                "homepage": null,
                 "id": 1238374602,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-14T09:08:48Z",
+                "open_issues": 2,
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 3258
+                "stars": 3285,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             },
@@ -106,12 +169,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agent Skill that transforms AI assistants into expert economics paper writers. Synthesizes 50+ guides by Cochrane, McCloskey, Shapiro, Head, Bellemare, Goldin, Kremer. Compatible with Claude Code and OpenAI Codex.",
+                "homepage": "https://openecon.ai",
                 "id": 1159184254,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-20T00:11:11Z",
+                "open_issues": 0,
                 "owner": "hanlulong",
                 "repo": "econ-writing-skill",
-                "stars": 567
+                "stars": 570,
+                "topics": [
+                  "academic-writing",
+                  "agent-skills",
+                  "ai",
+                  "claude-code",
+                  "codex",
+                  "economics",
+                  "latex",
+                  "research-tools"
+                ]
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             },
@@ -122,12 +199,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Referee report on your economics paper before a real referee sees it — verified comments and a revision plan your agents implement. Agent Skill for Claude Code & Codex.",
+                "homepage": "https://openecon.ai",
                 "id": 1298724548,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-01T19:49:05Z",
+                "open_issues": 6,
                 "owner": "hanlulong",
                 "repo": "econ-paper-review-skill",
-                "stars": 13
+                "stars": 14,
+                "topics": [
+                  "academic-writing",
+                  "agent-skills",
+                  "ai",
+                  "ai-agents",
+                  "causal-inference",
+                  "claude",
+                  "claude-code",
+                  "claude-skills",
+                  "codex",
+                  "econometrics",
+                  "economics",
+                  "finance",
+                  "llm",
+                  "paper-review",
+                  "peer-review",
+                  "referee-report",
+                  "research-tools",
+                  "social-science"
+                ]
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             },
@@ -138,12 +239,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Turn an economics paper into a seminar-ready Beamer talk with a timed speaker script — conference, job-market and discussant slides. Agent Skill for Claude Code & Codex.",
+                "homepage": "https://openecon.ai",
                 "id": 1301463756,
                 "language": "TeX",
+                "license": "MIT",
                 "last_commit": "2026-07-20T01:23:21Z",
+                "open_issues": 1,
                 "owner": "hanlulong",
                 "repo": "econ-slides-skill",
-                "stars": 12
+                "stars": 13,
+                "topics": [
+                  "academic-writing",
+                  "agent-skills",
+                  "ai",
+                  "ai-agents",
+                  "beamer",
+                  "claude",
+                  "claude-code",
+                  "claude-skills",
+                  "codex",
+                  "economics",
+                  "latex",
+                  "presentation",
+                  "research-tools",
+                  "seminar",
+                  "slides"
+                ]
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
             }
@@ -165,12 +287,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+            "homepage": "https://buymeacoffee.com/crucify020v",
             "id": 1167300963,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-27T09:55:24Z",
+            "open_issues": 19,
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 43996
+            "stars": 44099,
+            "topics": [
+              "academic-pipeline",
+              "academic-writing",
+              "ai-research",
+              "claude",
+              "claude-code",
+              "literature-review",
+              "peer-review",
+              "prompt-engineering"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -181,12 +317,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
+            "homepage": "https://copaper.ai",
             "id": 1200204014,
             "language": "Stata",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-27T06:07:36Z",
+            "open_issues": 2,
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 3577
+            "stars": 3589,
+            "topics": [
+              "academic-research",
+              "agent-skills",
+              "ai-agent",
+              "awesome-list",
+              "communication",
+              "copaper",
+              "economics",
+              "education",
+              "empirical-research",
+              "international-relations",
+              "political-science",
+              "psychology",
+              "public-administration",
+              "reproducible-research",
+              "skills-library",
+              "social-science",
+              "sociology"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -197,12 +356,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "符合nature论文学术表达和科研绘图的Skill",
+            "homepage": null,
             "id": 1219596233,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T05:00:55Z",
+            "open_issues": 0,
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 37534
+            "stars": 37667,
+            "topics": [
+              "codex-skills",
+              "nature",
+              "nature-skills"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -213,12 +381,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
+            "homepage": null,
             "id": 1143237475,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-27T10:20:31Z",
+            "open_issues": 3,
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5235
+            "stars": 5246,
+            "topics": [
+              "academic-research",
+              "ai-agents",
+              "claude",
+              "claude-code",
+              "codex-cli",
+              "developer-tools",
+              "kimi-code",
+              "mcp",
+              "openai-codex",
+              "opencode",
+              "paper-writing",
+              "zotero"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -229,12 +415,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "本仓库包含三个面向学术科研人员的Skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 PPT/Word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 MATLAB/Python 科学计算与期刊级图表生成。三个 Skill 专为中文科研用户设计，可在 Claude Code 和 codex 中一键调用。",
+            "homepage": null,
             "id": 1238374602,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-05-14T09:08:48Z",
+            "open_issues": 2,
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3258
+            "stars": 3285,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -245,12 +436,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Agent skills for drafting, revising, auditing, and resubmitting Nature-style journal manuscripts.",
+            "homepage": null,
             "id": 1208279709,
             "language": "TeX",
+            "license": "MIT",
             "last_commit": "2026-08-17T05:45:38Z",
+            "open_issues": 0,
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 461
+            "stars": 465,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -261,12 +457,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Skill package for ML/CV/NLP paper writing, curated and adapted from Prof. Peng Sida's open notes for Codex, Claude Code, and Gemini.",
+            "homepage": null,
             "id": 1173309453,
             "language": null,
+            "license": "MIT",
             "last_commit": "2026-06-23T02:28:54Z",
+            "open_issues": 0,
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 6344
+            "stars": 6363,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -277,12 +478,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A general purpose scientific writer",
+            "homepage": "https://k-dense.ai",
             "id": 1084058975,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-19T09:24:21Z",
+            "open_issues": 3,
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2256
+            "stars": 2264,
+            "topics": [
+              "ai-agents",
+              "anthropic",
+              "claude",
+              "skills",
+              "tools",
+              "writer"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -293,12 +506,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.",
+            "homepage": null,
             "id": 1127499996,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-01-04T02:42:38Z",
+            "open_issues": 1,
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1222
+            "stars": 1225,
+            "topics": [
+              "academic-writing",
+              "claude-code",
+              "philosophy",
+              "preprint",
+              "research-tools"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -309,12 +533,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A curated, multilingual library of 182 installable AI agent skills for end-to-end academic research—spanning literature discovery, scientific writing, grant development, bioinformatics, drug discovery, clinical research, machine learning, and data analysis.",
+            "homepage": null,
             "id": 1168281163,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-07-20T11:43:50Z",
+            "open_issues": 0,
             "owner": "LeonChaoX",
             "repo": "qinyan-academic-skills",
-            "stars": 840
+            "stars": 844,
+            "topics": [
+              "academic",
+              "ai-assistant",
+              "arxiv",
+              "claude-code",
+              "google-scholar",
+              "literature-review",
+              "openclaw",
+              "paper-search",
+              "pubmed",
+              "skill"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -325,12 +565,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Skills for Claude Code — deep-research: systematic academic literature review",
+            "homepage": null,
             "id": 1162231772,
             "language": "Python",
+            "license": null,
             "last_commit": "2026-02-27T04:11:14Z",
+            "open_issues": 5,
             "owner": "lingzhi227",
             "repo": "agent-research-skills",
-            "stars": 297
+            "stars": 299,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -341,12 +586,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Claude Code plugin: multi-agent orchestrator with 10 specialist agents for academic writing review, research, drafting, and polishing",
+            "homepage": null,
             "id": 1192497887,
             "language": null,
+            "license": "MIT",
             "last_commit": "2026-05-11T12:54:27Z",
+            "open_issues": 1,
             "owner": "andrehuang",
             "repo": "academic-writing-agents",
-            "stars": 173
+            "stars": 175,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -357,12 +607,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Claude Code skill for academic manuscript writing: IMRAD workflows, literature matrices, tables/figures, and tested utilities.",
+            "homepage": "https://kgraph57.github.io/paper-writer-skill/",
             "id": 1158898484,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-12T14:28:23Z",
+            "open_issues": 0,
             "owner": "kgraph57",
             "repo": "paper-writer-skill",
-            "stars": 53
+            "stars": 53,
+            "topics": [
+              "academic-writing",
+              "agent-skills",
+              "claude-code",
+              "claude-code-skill",
+              "claude-skill",
+              "claude-skills",
+              "evidence-based-medicine",
+              "imrad",
+              "latex",
+              "literature-review",
+              "manuscript",
+              "medical-writing",
+              "research",
+              "scientific-writing"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -373,12 +643,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "学术文献综述全流程 Claude Code Skills 套件 (5 子 skill: 检索/获取/精读/综述写作/综述章节). Free & MIT.",
+            "homepage": null,
             "id": 1232708097,
             "language": null,
+            "license": "MIT",
             "last_commit": "2026-05-08T08:20:34Z",
+            "open_issues": 0,
             "owner": "YANZHANLIN",
             "repo": "literature-review-skill",
-            "stars": 14
+            "stars": 14,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -389,12 +664,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+            "homepage": "https://k-dense.ai",
             "id": 1079456184,
             "language": "Python",
-            "last_commit": "2026-08-24T09:22:55Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T21:41:24Z",
+            "open_issues": 16,
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 35491
+            "stars": 36770,
+            "topics": [
+              "agent-skills",
+              "ai-scientist",
+              "bioinformatics",
+              "chemoinformatics",
+              "claude",
+              "claude-skills",
+              "claudecode",
+              "clinical-research",
+              "computational-biology",
+              "data-analysis",
+              "drug-discovery",
+              "genomics",
+              "materials-science",
+              "metabolomics",
+              "proteomics",
+              "scientific-computing",
+              "scientific-visualization"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -405,12 +703,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "197 bioinformatics & life science skills for Claude Code and AI agents — BixBench 92.0% accuracy. RNA-seq, single-cell, drug discovery, proteomics, and more. Powers OmicsHorizon.",
+            "homepage": "https://omicshorizon.ai/en/",
             "id": 1160505943,
             "language": "Python",
-            "last_commit": "2026-08-27T05:17:53Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-29T00:42:20Z",
+            "open_issues": 6,
             "owner": "jaechang-hits",
             "repo": "SciAgent-Skills",
-            "stars": 346
+            "stars": 351,
+            "topics": [
+              "ai-agent",
+              "bioinformatics",
+              "biostatistics",
+              "bixbench",
+              "cheminformatics",
+              "claude-code",
+              "claude-plugin",
+              "claude-skills",
+              "computational-biology",
+              "drug-discovery",
+              "genomics",
+              "life-sciences",
+              "omicshorizon",
+              "open-source",
+              "proteomics",
+              "rna-seq",
+              "scientific-computing",
+              "scientific-skills",
+              "single-cell",
+              "skills-library"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         },
@@ -421,12 +745,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A skill marketplace for academic research: from project management to literature review, making figures and writing reports and grants.",
+            "homepage": "https://neuromechanist.github.io/research-skills/",
             "id": 1189257977,
             "language": "Python",
+            "license": "BSD-3-Clause",
             "last_commit": "2026-08-13T00:56:02Z",
+            "open_issues": 1,
             "owner": "neuromechanist",
             "repo": "research-skills",
-            "stars": 43
+            "stars": 43,
+            "topics": [
+              "agenitc-ai",
+              "ai-marketplace-tools",
+              "ai-skills",
+              "claude-code",
+              "codex",
+              "copilot",
+              "open-science"
+            ]
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
         }
@@ -435,15 +772,41 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T06:15:50.725Z",
+    "last_updated": "2026-08-29T03:49:57.559Z",
     "original_repository_info": {
       "archived": false,
+      "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
+      "homepage": "https://www.copaper.ai",
       "id": 1248879346,
       "language": "Stata",
+      "license": "MIT",
       "last_commit": "2026-08-26T22:18:49Z",
+      "open_issues": 0,
       "owner": "brycewang-stanford",
       "repo": "Awesome-Journal-Skills",
-      "stars": 1033
+      "stars": 1037,
+      "topics": [
+        "academic-research",
+        "academic-writing",
+        "agent-skills",
+        "ai-agents",
+        "anthropic",
+        "awesome-list",
+        "causal-inference",
+        "claude",
+        "claude-code",
+        "econometrics",
+        "economics",
+        "empirical-research",
+        "finance",
+        "journal",
+        "llm",
+        "mcp",
+        "peer-review",
+        "replication",
+        "research-tools",
+        "scholarly-publishing"
+      ]
     },
     "original_repository_sha": "36b2bbb357fa51c258311028af66721b5cf99347",
     "enhanced_repository": "enhansome/enhansome-Awesome-Journal-Skills",
