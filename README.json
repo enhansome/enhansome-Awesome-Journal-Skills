@@ -70,7 +70,7 @@
                 "open_issues": 0,
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 37667,
+                "stars": 37673,
                 "topics": [
                   "codex-skills",
                   "nature",
@@ -157,7 +157,7 @@
                 "open_issues": 2,
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 3285,
+                "stars": 3286,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
@@ -296,7 +296,7 @@
             "open_issues": 19,
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 44099,
+            "stars": 44103,
             "topics": [
               "academic-pipeline",
               "academic-writing",
@@ -365,7 +365,7 @@
             "open_issues": 0,
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 37667,
+            "stars": 37673,
             "topics": [
               "codex-skills",
               "nature",
@@ -424,7 +424,7 @@
             "open_issues": 2,
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 3285,
+            "stars": 3286,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -487,7 +487,7 @@
             "open_issues": 3,
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2264,
+            "stars": 2265,
             "topics": [
               "ai-agents",
               "anthropic",
@@ -673,7 +673,7 @@
             "open_issues": 16,
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 36770,
+            "stars": 36822,
             "topics": [
               "agent-skills",
               "ai-scientist",
@@ -772,7 +772,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T03:49:57.559Z",
+    "last_updated": "2026-08-29T04:36:53.322Z",
     "original_repository_info": {
       "archived": false,
       "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
