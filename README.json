@@ -70,7 +70,7 @@
                 "open_issues": 3,
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 47739,
+                "stars": 48033,
                 "topics": [
                   "codex-skills",
                   "nature",
@@ -91,11 +91,11 @@
                 "id": 1208279709,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-10T13:37:58Z",
-                "open_issues": 1,
+                "last_commit": "2026-10-13T13:05:33Z",
+                "open_issues": 0,
                 "owner": "Boom5426",
                 "repo": "Nature-Paper-Skills",
-                "stars": 574,
+                "stars": 580,
                 "topics": [
                   "nature-paper",
                   "paper",
@@ -130,7 +130,7 @@
                 "open_issues": 3,
                 "owner": "Galaxy-Dawn",
                 "repo": "claude-scholar",
-                "stars": 5764,
+                "stars": 5773,
                 "topics": [
                   "academic-research",
                   "ai-agents",
@@ -164,7 +164,7 @@
                 "open_issues": 2,
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 4808,
+                "stars": 4840,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
@@ -185,7 +185,7 @@
                 "open_issues": 0,
                 "owner": "hanlulong",
                 "repo": "econ-writing-skill",
-                "stars": 658,
+                "stars": 661,
                 "topics": [
                   "academic-writing",
                   "agent-skills",
@@ -299,11 +299,11 @@
             "id": 1167300963,
             "language": "Python",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-13T03:01:27Z",
-            "open_issues": 36,
+            "last_commit": "2026-10-13T17:41:42Z",
+            "open_issues": 35,
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 51603,
+            "stars": 51814,
             "topics": [
               "academic-pipeline",
               "academic-writing",
@@ -333,7 +333,7 @@
             "open_issues": 3,
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 4595,
+            "stars": 4607,
             "topics": [
               "academic-research",
               "agent-skills",
@@ -372,7 +372,7 @@
             "open_issues": 3,
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 47739,
+            "stars": 48033,
             "topics": [
               "codex-skills",
               "nature",
@@ -397,7 +397,7 @@
             "open_issues": 3,
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5764,
+            "stars": 5773,
             "topics": [
               "academic-research",
               "ai-agents",
@@ -431,7 +431,7 @@
             "open_issues": 2,
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 4808,
+            "stars": 4840,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -448,11 +448,11 @@
             "id": 1208279709,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-10-10T13:37:58Z",
-            "open_issues": 1,
+            "last_commit": "2026-10-13T13:05:33Z",
+            "open_issues": 0,
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 574,
+            "stars": 580,
             "topics": [
               "nature-paper",
               "paper",
@@ -480,7 +480,7 @@
             "open_issues": 2,
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 7424,
+            "stars": 7453,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -501,7 +501,7 @@
             "open_issues": 6,
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2457,
+            "stars": 2464,
             "topics": [
               "ai-agents",
               "anthropic",
@@ -529,7 +529,7 @@
             "open_issues": 1,
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1383,
+            "stars": 1385,
             "topics": [
               "academic-writing",
               "claude-code",
@@ -556,7 +556,7 @@
             "open_issues": 1,
             "owner": "LeonChaoX",
             "repo": "qinyan-academic-skills",
-            "stars": 946,
+            "stars": 948,
             "topics": [
               "academic",
               "ai-assistant",
@@ -588,7 +588,7 @@
             "open_issues": 5,
             "owner": "lingzhi227",
             "repo": "agent-research-skills",
-            "stars": 395,
+            "stars": 398,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -687,7 +687,7 @@
             "open_issues": 24,
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 48589,
+            "stars": 48733,
             "topics": [
               "agent-skills",
               "ai-scientist",
@@ -764,7 +764,7 @@
             "id": 1189257977,
             "language": "Python",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-10-12T21:54:39Z",
+            "last_commit": "2026-10-13T07:58:28Z",
             "open_issues": 0,
             "owner": "neuromechanist",
             "repo": "research-skills",
@@ -786,7 +786,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-13T03:08:08.426Z",
+    "last_updated": "2026-10-14T01:21:10.493Z",
     "original_repository_info": {
       "archived": false,
       "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
@@ -798,7 +798,7 @@
       "open_issues": 2,
       "owner": "brycewang-stanford",
       "repo": "Awesome-Journal-Skills",
-      "stars": 1248,
+      "stars": 1251,
       "topics": [
         "academic-research",
         "academic-writing",
