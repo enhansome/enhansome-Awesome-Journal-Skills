@@ -66,11 +66,11 @@
                 "id": 1219596233,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-20T12:46:26Z",
+                "last_commit": "2026-10-21T05:46:24Z",
                 "open_issues": 1,
                 "owner": "Yuan1z0825",
                 "repo": "nature-skills",
-                "stars": 49663,
+                "stars": 49923,
                 "topics": [
                   "codex-skills",
                   "nature",
@@ -95,7 +95,7 @@
                 "open_issues": 0,
                 "owner": "Boom5426",
                 "repo": "Nature-Paper-Skills",
-                "stars": 604,
+                "stars": 609,
                 "topics": [
                   "nature-paper",
                   "paper",
@@ -130,7 +130,7 @@
                 "open_issues": 3,
                 "owner": "Galaxy-Dawn",
                 "repo": "claude-scholar",
-                "stars": 5853,
+                "stars": 5867,
                 "topics": [
                   "academic-research",
                   "ai-agents",
@@ -164,7 +164,7 @@
                 "open_issues": 3,
                 "owner": "zLanqing",
                 "repo": "codex-claude-academic-skills",
-                "stars": 5126,
+                "stars": 5172,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:15:50.725Z"
@@ -299,11 +299,11 @@
             "id": 1167300963,
             "language": "Python",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-18T01:25:37Z",
-            "open_issues": 35,
+            "last_commit": "2026-10-21T03:19:03Z",
+            "open_issues": 38,
             "owner": "Imbad0202",
             "repo": "academic-research-skills",
-            "stars": 53176,
+            "stars": 53356,
             "topics": [
               "academic-pipeline",
               "academic-writing",
@@ -333,7 +333,7 @@
             "open_issues": 2,
             "owner": "brycewang-stanford",
             "repo": "Auto-Empirical-Research-Skills",
-            "stars": 4696,
+            "stars": 4710,
             "topics": [
               "academic-research",
               "agent-skills",
@@ -368,11 +368,11 @@
             "id": 1219596233,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-20T12:46:26Z",
+            "last_commit": "2026-10-21T05:46:24Z",
             "open_issues": 1,
             "owner": "Yuan1z0825",
             "repo": "nature-skills",
-            "stars": 49663,
+            "stars": 49923,
             "topics": [
               "codex-skills",
               "nature",
@@ -397,7 +397,7 @@
             "open_issues": 3,
             "owner": "Galaxy-Dawn",
             "repo": "claude-scholar",
-            "stars": 5853,
+            "stars": 5867,
             "topics": [
               "academic-research",
               "ai-agents",
@@ -431,7 +431,7 @@
             "open_issues": 3,
             "owner": "zLanqing",
             "repo": "codex-claude-academic-skills",
-            "stars": 5126,
+            "stars": 5172,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -452,7 +452,7 @@
             "open_issues": 0,
             "owner": "Boom5426",
             "repo": "Nature-Paper-Skills",
-            "stars": 604,
+            "stars": 609,
             "topics": [
               "nature-paper",
               "paper",
@@ -480,7 +480,7 @@
             "open_issues": 2,
             "owner": "Master-cai",
             "repo": "Research-Paper-Writing-Skills",
-            "stars": 7645,
+            "stars": 7681,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -501,7 +501,7 @@
             "open_issues": 8,
             "owner": "K-Dense-AI",
             "repo": "claude-scientific-writer",
-            "stars": 2500,
+            "stars": 2509,
             "topics": [
               "ai-agents",
               "anthropic",
@@ -529,7 +529,7 @@
             "open_issues": 1,
             "owner": "lishix520",
             "repo": "academic-paper-skills",
-            "stars": 1412,
+            "stars": 1414,
             "topics": [
               "academic-writing",
               "claude-code",
@@ -556,7 +556,7 @@
             "open_issues": 1,
             "owner": "LeonChaoX",
             "repo": "qinyan-academic-skills",
-            "stars": 967,
+            "stars": 969,
             "topics": [
               "academic",
               "ai-assistant",
@@ -588,7 +588,7 @@
             "open_issues": 5,
             "owner": "lingzhi227",
             "repo": "agent-research-skills",
-            "stars": 420,
+            "stars": 423,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -609,7 +609,7 @@
             "open_issues": 1,
             "owner": "andrehuang",
             "repo": "academic-writing-agents",
-            "stars": 223,
+            "stars": 225,
             "topics": []
           },
           "first_seen": "2026-08-28T06:15:50.725Z"
@@ -687,7 +687,7 @@
             "open_issues": 50,
             "owner": "K-Dense-AI",
             "repo": "scientific-agent-skills",
-            "stars": 53268,
+            "stars": 53582,
             "topics": [
               "agent-skills",
               "ai-scientist",
@@ -786,7 +786,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-21T00:49:43.427Z",
+    "last_updated": "2026-10-22T00:50:40.725Z",
     "original_repository_info": {
       "archived": false,
       "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
@@ -798,7 +798,7 @@
       "open_issues": 2,
       "owner": "brycewang-stanford",
       "repo": "Awesome-Journal-Skills",
-      "stars": 1283,
+      "stars": 1284,
       "topics": [
         "academic-research",
         "academic-writing",
